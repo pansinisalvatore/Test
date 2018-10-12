@@ -28,7 +28,7 @@ public class Azienda {
 		ArrayList <String> fileDaControllare;
 		Scanner scanner;
 		
-		int conta = 0;
+		Long conta = 0l;
 		try {
 			fileDaControllare = controlFileName();
 			if (fileDaControllare == null) throw new FileNotFoundException("Nessun file con il giusto formato");
@@ -45,18 +45,21 @@ public class Azienda {
 				String[] stringa;
 				String s;
 				s = scanner.nextLine();
-				System.out.println(s);
+
 				stringa = s.split(";");
 				Utility.campoVuoto(stringa);
 				Dati dati = new Dati();
 				dati.set(stringa);
+				//dati.controllaStato(stringa);
+				dati.setQuantitaPositiva();
 				dati.controllaNumeroColonne(stringa);
 				dati.controllaSesso(Utility.vetToString(stringa));
 				dati.controllaData(stringa);
 				dati.controllaOutlet(stringa);
-				
+				conta++;
 				}
 			scanner.close();
+			System.out.println("conta: "+conta);
 			}
 		
 		}catch(FileNotFoundException e) {
