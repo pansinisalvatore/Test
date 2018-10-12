@@ -1,6 +1,12 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 import eccezione.DataException;
+import eccezione.GeneralException;
 import eccezione.NegativeException;
 import eccezione.OutletException;
+import eccezione.StatoException;
 import utility.Utility;
 public class Dati {
 	private static final String INTESTAZIONE = "IdOrdine;IdCorriere;DataOrdine;DataConsegna;"
@@ -8,6 +14,8 @@ public class Dati {
 			+ "TotaleConIva;IdCliente;Sesso;Quantita;IdMagazzino;PrezzoVendita;PrezzoPieno;"
 			+ "PrezzoScontato;Sconto;Outlet;IdTaglia2;NomeDes;LinguaCollezione;LinguaColore;"
 			+ "NomeSes;PagamentoOrdine;IdGruppoTaglie;NomeCat;NomeMac";
+	
+	
 	private String idOrdine;
 	private String idCorriere;
 	private String dataOrdine;
@@ -270,6 +278,13 @@ public class Dati {
 	
 		if ((Integer.parseInt(sesso) != 3) && (Integer.parseInt(sesso) !=4))
 			throw new eccezione.SessoException(riga);
+		if (Integer.parseInt(sesso)==3) {
+			setSesso("Uomo");
+		}
+		else {
+			setSesso("Donna");
+		}
+			
 	}
 	/**
 	 * Controllo lunghezza di dataOrdine e dataConsegna
@@ -316,9 +331,21 @@ public class Dati {
 		
 		if ((Integer.parseInt(outlet) != 1) && (Integer.parseInt(outlet) != 0))
 			throw new OutletException(Utility.vetToString(vet));
+		if (Integer.parseInt(outlet)==1) {
+			setOutlet("NO");
+		}else {
+			setOutlet("SI");
+		}
 		
 	}
 	
+	public void setQuantitaPositiva() {
+		int quantitaPos;
+		if ((Integer.parseInt(quantita))<0) {
+			quantitaPos=Integer.parseInt(quantita)*(-1);
+			setQuantita(String.valueOf(quantitaPos));
+		}
+	}
 	public String toString() {
 		return idOrdine + ";" + idCorriere + ";" + dataOrdine + ";" +
 				dataConsegna + ";" + codStatoFattura + ";" +
@@ -331,6 +358,39 @@ public class Dati {
 					 linguaColore  + ";" + nomeSes  + ";" + pagamentoOrdine  + ";" +
 				 idGruppoTaglie  + ";" + nomeCat  + ";" + nomeMac;
 		 
+	}
+	
+	public void controllaStato(String []vet) throws StatoException {
+		if (controllaProvinciaCitta() && codStatoFattura!="IT") {
+			throw new StatoException("CodStatoFattura errato nella riga " + Utility.vetToString(vet));
+		}
+	}
+	
+	public boolean controllaProvinciaCitta() {
+		
+	Scanner scanner ;//
+	boolean trovato=false;
+		try {
+			scanner = new Scanner (new File("Elenco-comuni-italiani.csv"));
+			String aux =scanner.nextLine(); 
+			while (scanner.hasNextLine()) {
+				String[] stringa;
+				stringa = scanner.nextLine().split(";");
+				if (codProvinciaFattura==stringa[3]) {
+					if (comuneFatturazione==stringa[0]) {
+					scanner.close();
+					trovato= true;
+					break;
+					}
+				}
+	       
+	       }scanner.close();
+			
+		}catch(FileNotFoundException e) {
+			System.out.println(e.getMessage());
+		}
+		return trovato;
+		
 	}
 	
 }
