@@ -1,0 +1,5 @@
+IdOrdine;IdCorriere;DataOrdine;DataConsegna;CodStatoFattura;CodProvinciaFattura;ComuneFatturazione;TotaleImponibileFattura;TotaleConIva;IdCliente;Sesso;Quantita;IdMagazzino;PrezzoVendita;PrezzoPieno;PrezzoScontato;Sconto;Outlet;IdTaglia2;NomeDes;LinguaCollezione;LinguaColore;NomeSes;PagamentoOrdine;IdGruppoTaglie;NomeCat;NomeMac
+11;1;07/09/2010;09/09/2010;IT;TV;PONZANO VENETO;160;192;1105;3;-1;17271;89;89;89;0;0;30;FRECCE TRICOLORI;Primavera - Estate 2011;Celeste;Uomo;PayPal;24;Orologi;Gioielli Moda
+11;1;07/09/2010;09/09/2010;IT;TV;PONZANO VENETO;160;192;1105;3;-1;5186;124;124;62;50;1;5;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Uomo;PayPal;2;Maglieria;Abbigliamento
+15;1;07/09/2010;10/09/2010;IT;BG;CISERANO;80,83;97;1371;4;-1;2878;97;97;49;50;1;6;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+82;1;21/09/2010;28/09/2010;LU;Lu;Pétange;128,33;154;1478;3;-1;2851;154;154;77;50;1;3;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Uomo;PayPal;2;Maglieria;Abbigliamento/n

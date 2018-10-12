@@ -1,0 +1,526 @@
+IdOrdine;IdCorriere;DataOrdine;DataConsegna;CodStatoFattura;CodProvinciaFattura;ComuneFatturazione;TotaleImponibileFattura;TotaleConIva;IdCliente;Sesso;Quantita;IdMagazzino;PrezzoVendita;PrezzoPieno;PrezzoScontato;Sconto;Outlet;IdTaglia2;NomeDes;LinguaCollezione;LinguaColore;NomeSes;PagamentoOrdine;IdGruppoTaglie;NomeCat;NomeMac
+11;1;007/09/2010;09/09/2010;IT;TV;PONZANO VENETO;160;192;1105;3;-1;17271;89;89;89;0;0;30;FRECCE TRICOLORI;Primavera - Estate 2011;Celeste;Uomo;PayPal;24;Orologi;Gioielli Moda
+11;1;07/09/2010;09/09/2010;IT;TV;PONZANO VENETO;160;192;1105;3;-1;5186;124;124;62;50;1;5;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Uomo;PayPal;2;Maglieria;Abbigliamento
+15;1;07/09/2010;10/09/2010;IT;BG;CISERANO;80,83;97;1371;4;-1;2878;97;97;49;50;1;6;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+16;1;07/09/2010;09/09/2010;IT;RM;ROMA;186,67;224;1230;3;-1;5187;124;124;62;50;1;6;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Uomo;PayPal;2;Maglieria;Abbigliamento
+16;1;07/09/2010;09/09/2010;IT;RM;ROMA;186,67;224;1230;3;-1;5159;124;124;62;50;1;3;AERONAUTICA MILITARE;Autunno - Inverno 2011;Bianco;Uomo;PayPal;2;Maglieria;Abbigliamento
+46;1;10/09/2010;13/09/2010;IT;TA;GINOSA;460,83;553;523;4;-1;4962;120;120;60;50;1;4;FIX DESIGN;Autunno - Inverno 2011;Bianco;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+46;1;10/09/2010;13/09/2010;IT;TA;GINOSA;460,83;553;523;4;-1;2754;325;650;325;50;0;30;FAY;Autunno - Inverno 2011;Verde muschio;Donna;Carta di Credito;44;Shopper;Borse
+46;1;10/09/2010;13/09/2010;IT;TA;GINOSA;460,83;553;523;4;-1;3065;65;130;65;50;1;5;FIX DESIGN;Autunno - Inverno 2011;Bluette;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+46;1;10/09/2010;13/09/2010;IT;TA;GINOSA;460,83;553;523;4;-1;3062;43;85;43;50;1;3;FIX DESIGN;Autunno - Inverno 2011;Panna;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+48;1;12/09/2010;14/09/2010;IT;TA;MASSAFRA;95;114;1290;3;-1;5193;114;130;65;50;1;103;DIADORA;Autunno - Inverno 2011;Blu scuro;Uomo;Contrassegno;10;Sneakers;Calzature
+50;1;14/09/2010;16/09/2010;IT;LE;LECCE;229,17;275;1439;3;-1;2755;275;550;275;50;0;30;FAY;Autunno - Inverno 2011;Verde acido;Donna;Carta di Credito;44;Shopper;Borse
+51;1;15/09/2010;17/09/2010;IT;TO;SUSA;178,33;214;1366;3;-1;5608;214;214;107;50;1;28;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Uomo;PayPal;2;Capispalla;Abbigliamento
+67;1;16/09/2010;20/09/2010;IT;TA;CASTELLANETA;162,5;195;1442;4;-1;2668;195;390;195;50;0;30;HOGAN;Autunno - Inverno 2011;Testa di moro;Donna;Contrassegno;44;Shopper;Borse
+68;1;16/09/2010;20/09/2010;IT;PT;PISTOIA;237,5;285;110;3;-1;3675;285;285;143;50;1;104;SANTONI;Autunno - Inverno 2011;Beige;Uomo;Contrassegno;10;Polacco;Calzature
+72;1;16/09/2010;20/09/2010;IT;VC;VERCELLI;21,67;26;1444;3;-1;5203;26;26;26;0;0;30;FRECCE TRICOLORI;Autunno - Inverno 2011;Azzurro;Uomo;Carta di Credito;42;Cappelli;Accessori
+79;1;20/09/2010;22/09/2010;IT;ME;MALVAGNA;158,33;190;1288;3;-1;5576;190;190;95;50;1;3;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+82;1;21/09/2010;28/09/2010;LU;Lu;P«∏tange;128,33;154;1478;3;-1;2851;154;154;77;50;1;3;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Uomo;PayPal;2;Maglieria;Abbigliamento
+88;1;23/09/2010;28/09/2010;IT;AV;AVELLA;162,5;195;898;4;-1;2671;195;390;195;50;0;30;HOGAN;Autunno - Inverno 2011;Testa di moro;Donna;Carta di Credito;44;Shopper;Borse
+89;1;23/09/2010;28/09/2010;IT;Cs;COSENZA;120,83;145;1488;4;-1;3886;145;290;145;50;1;615;FAY;Autunno - Inverno 2011;Blu scuro;Kids Girl;Carta di Credito;16;Capispalla;Abbigliamento
+90;1;24/09/2010;28/09/2010;IT;NO;TRECATE;79,17;95;1490;4;-1;5113;95;95;48;50;1;617;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Kids Boy;Contrassegno;16;Maglieria;Abbigliamento
+94;1;24/09/2010;28/09/2010;IT;MI;SEREGNO;132,5;159;1452;3;-1;5562;159;159;80;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Uomo;PayPal;2;Maglieria;Abbigliamento
+102;1;24/09/2010;04/10/2010;DE;Ob;Oberf«Ùhring;350;420;1492;3;-1;2501;420;840;420;50;1;67;AERONAUTICA MILITARE;Autunno - Inverno 2011;Testa di moro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+105;1;24/09/2010;04/10/2010;IT;BR;FRANCAVILLA FONTANA;104,17;125;801;3;-1;2538;125;250;125;50;1;30;DUVETICA;Autunno - Inverno 2011;Viola Scuro;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+106;1;25/09/2010;04/10/2010;IT;FG;CERIGNOLA;60,83;73;1508;3;-1;4862;73;145;73;50;1;3;ETRO;Autunno - Inverno 2011;Multicolor;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+107;1;26/09/2010;04/10/2010;IT;SS;SASSARI;245,83;295;1510;3;-1;6033;295;295;148;50;1;105;SANTONI;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;10;Sneakers;Calzature
+117;1;28/09/2010;04/10/2010;IT;CS;CASTROLIBERO;65;78;233;4;-1;4713;78;155;78;50;1;72;JECKERSON;Autunno - Inverno 2011;Viola Scuro;Donna;PayPal;3;Gonne;Abbigliamento
+118;1;28/09/2010;04/10/2010;AF;NA;NAPOLI;312,5;375;1518;3;-1;4943;375;375;188;50;1;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;PayPal;45;Shopper;Borse
+119;1;28/09/2010;08/10/2010;BE;Br;bruxelles;175;210;1522;3;-1;4915;210;420;210;50;1;619;AERONAUTICA MILITARE;Autunno - Inverno 2011;Testa di moro;Kids Boy;Carta di Credito;16;Capispalla;Abbigliamento
+121;1;28/09/2010;04/10/2010;LU;Lu;Luxembourg;103,33;124;1528;3;-1;5173;124;124;62;50;1;7;AERONAUTICA MILITARE;Autunno - Inverno 2011;Grigio;Uomo;PayPal;2;Maglieria;Abbigliamento
+125;1;29/09/2010;04/10/2010;IT;tr;trieste;248,33;298;1531;3;-1;6417;298;298;149;50;1;67;ROY ROGERS;Autunno - Inverno 2011;Blu;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+131;1;30/09/2010;04/10/2010;IT;PT;AGLIANA;229,17;275;1527;4;-1;2756;275;550;275;50;0;30;FAY;Autunno - Inverno 2011;Nero;Donna;Bonifico Bancario;44;Shopper;Borse
+148;1;03/10/2010;08/10/2010;IT;NA;NAPOLI;110,83;133;1102;3;-1;3890;133;266;133;50;1;613;BREMA JUNIOR;Autunno - Inverno 2011;Lilla;Kids Girl;Carta di Credito;16;Capispalla;Abbigliamento
+151;1;05/10/2010;14/10/2010;IT;VI;NOVENTA VICENTINA;78,33;94;1564;3;-1;2882;94;94;47;50;1;6;AERONAUTICA MILITARE;Autunno - Inverno 2011;Bluette;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+152;1;07/10/2010;24/10/2010;IT;MI;TRUCCAZZANO;279,17;335;1576;4;-1;4025;110;110;55;50;1;4;SUN 68;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+152;1;07/10/2010;24/10/2010;IT;MI;TRUCCAZZANO;279,17;335;1576;4;-1;4021;110;110;55;50;1;4;SUN 68;Autunno - Inverno 2011;Panna;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+152;1;07/10/2010;24/10/2010;IT;MI;TRUCCAZZANO;279,17;335;1576;4;-1;3949;115;115;58;50;1;4;SUN 68;Autunno - Inverno 2011;Grigio;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+158;1;07/10/2010;14/10/2010;IT;FG;SAN GIOVANNI ROTONDO;129,17;155;648;3;-1;5830;80;160;80;50;0;259;ETRO;Autunno - Inverno 2011;Testa di moro;Uomo;Carta di Credito;24;Cinture;Accessori
+158;1;07/10/2010;14/10/2010;IT;FG;SAN GIOVANNI ROTONDO;129,17;155;648;3;-1;5089;75;150;75;50;1;434;ROY ROGERS;Autunno - Inverno 2011;Denim;Uomo;Carta di Credito;2;Jeans;Abbigliamento
+163;1;10/10/2010;16/10/2010;IT;ca;catania;187,5;225;1583;4;-1;2670;225;450;225;50;0;30;HOGAN;Autunno - Inverno 2011;Nero;Donna;Contrassegno;44;Shopper;Borse
+164;1;11/10/2010;16/10/2010;IT;PO;PRATO;225;270;1582;3;-1;3631;270;270;135;50;1;104;HOGAN;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;10;Sneakers;Calzature
+166;1;13/10/2010;20/10/2010;IT;EN;PIAZZA ARMERINA;216,67;260;1610;3;-1;2694;260;260;130;50;1;103;TOD'S;Autunno - Inverno 2011;Marrone;Uomo;Contrassegno;10;Polacco;Calzature
+167;1;13/10/2010;16/10/2010;IT;FG;SAN GIOVANNI ROTONDO;308,33;370;648;3;-1;7600;297;495;248;50;1;6;BURBERRY;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+167;1;13/10/2010;16/10/2010;IT;FG;SAN GIOVANNI ROTONDO;308,33;370;648;3;-1;4863;73;145;73;50;1;4;ETRO;Autunno - Inverno 2011;Multicolor;Uomo;PayPal;2;Maglieria;Abbigliamento
+170;1;14/10/2010;20/10/2010;IT;TN;ARCO;95,83;115;1615;4;-1;7451;115;115;58;50;1;3;FIX DESIGN;Autunno - Inverno 2011;Grigio;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+171;1;15/10/2010;20/10/2010;IT;SS;VIDDALBA;116,67;140;1624;4;-1;6400;160;160;80;50;1;623;HOGAN;Autunno - Inverno 2011;Nero;Junior Girl;PayPal;18;Sneakers;Calzature
+173;1;15/10/2010;20/10/2010;IT;CS;CORIGLIANO CALABRO;79,17;95;1616;4;-1;3984;115;115;58;50;1;3;SUN 68;Autunno - Inverno 2011;Grigio medio;Donna;PayPal;3;Maglieria;Abbigliamento
+175;1;15/10/2010;20/10/2010;IT;CS;CORIGLIANO CALABRO;36,67;44;1616;4;-1;3055;44;87;44;50;1;3;FIX DESIGN;Autunno - Inverno 2011;Nero;Donna;Contrassegno;3;Maglieria;Abbigliamento
+177;1;17/10/2010;20/10/2010;IT;PA;CACCAMO;247,5;297;1642;4;-1;7612;297;495;248;50;1;66;BURBERRY;Autunno - Inverno 2011;Ghiaccio;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+179;1;18/10/2010;27/10/2010;BE;Br;belgio;658,33;790;1643;3;-1;7017;790;790;395;50;1;4;FAY;Autunno - Inverno 2011;Blu scuro;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+186;1;19/10/2010;20/10/2010;IT;BG;OSIO SOTTO;87,5;105;1652;3;-1;7538;125;125;63;50;1;3;BURBERRY;Autunno - Inverno 2011;Beige;Uomo;PayPal;2;Maglieria;Abbigliamento
+187;1;19/10/2010;20/10/2010;IT;RN;RIMINI;104,17;125;1654;3;-1;7551;125;125;63;50;1;4;BURBERRY;Autunno - Inverno 2011;Blu notte;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+202;1;19/10/2010;24/10/2010;ES;BA;BARCELONA;788,33;946;883;3;-1;6330;473;473;237;50;1;68;DUVETICA;Autunno - Inverno 2011;Grigio scuro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+202;1;19/10/2010;24/10/2010;ES;BA;BARCELONA;788,33;946;883;3;-1;6331;473;473;237;50;1;69;DUVETICA;Autunno - Inverno 2011;Grigio scuro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+206;1;20/10/2010;24/10/2010;IT;FG;SAN GIOVANNI ROTONDO;142,5;171;648;3;-1;5829;80;160;80;50;0;254;ETRO;Autunno - Inverno 2011;Testa di moro;Uomo;PayPal;24;Cinture;Accessori
+206;1;20/10/2010;24/10/2010;IT;FG;SAN GIOVANNI ROTONDO;142,5;171;648;3;-1;8281;91;130;65;50;1;5;BURBERRY;Autunno - Inverno 2011;Grigio scuro;Donna;PayPal;3;Topwear;Abbigliamento
+207;1;20/10/2010;27/10/2010;IT;CA;CAGLIARI;183,33;220;1659;4;-1;3855;240;240;120;50;1;102;HOGAN;Autunno - Inverno 2011;Grigio - Blu;Uomo;Carta di Credito;10;Sneakers;Calzature
+208;1;21/10/2010;27/10/2010;IT;AV;AVELLA;183,33;220;898;4;-1;3799;240;240;120;50;1;87;HOGAN;Autunno - Inverno 2011;Grigio;Donna;Carta di Credito;9;Sneakers;Calzature
+209;1;22/10/2010;26/10/2010;IT;BA;BARLETTA;130;156;1634;3;-1;8318;156;260;130;50;1;77;SANTONI;Autunno - Inverno 2011;Testa di moro;Donna;Carta di Credito;9;Sneakers;Calzature
+210;1;22/10/2010;27/10/2010;IT;CA;IGLESIAS;304,17;365;1547;3;-1;7445;365;365;183;50;1;4;CLUB DES SPORTS;Autunno - Inverno 2011;Blu medio;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+213;1;23/10/2010;27/10/2010;IT;TO;TORINO;165;198;1699;4;-1;2515;218;435;218;50;1;67;DUVETICA;Autunno - Inverno 2011;Ghiaccio;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+214;1;25/10/2010;29/10/2010;IT;Bo;bologna;124,17;149;1724;4;-1;2494;149;298;149;50;1;68;AERONAUTICA MILITARE;Autunno - Inverno 2011;Viola Scuro;Donna;PayPal;3;Capispalla;Abbigliamento
+215;1;25/10/2010;29/10/2010;IT;VE;MUSILE DI PIAVE;979,17;1175;1725;3;-1;18371;1195;1195;598;50;1;30;BURBERRY;Autunno - Inverno 2011;Classic Check;Uomo;Carta di Credito;24;Trolley;Borse
+216;1;26/10/2010;27/10/2010;IT;PT;LARCIANO;91,67;110;1736;3;-1;5662;110;110;55;50;1;5;BURBERRY;Autunno - Inverno 2011;Blu scuro;Uomo;PayPal;2;Maglieria;Abbigliamento
+218;1;26/10/2010;02/11/2010;IT;CE;VILLA DI BRIANO;52,5;63;473;4;-1;8405;63;125;63;50;1;622;TOD'S;Autunno - Inverno 2011;Blu medio;Junior Boy;Carta di Credito;18;Sneakers;Calzature
+219;1;26/10/2010;29/10/2010;IT;PT;AGLIANA;204,17;245;1527;4;-1;2669;245;490;245;50;0;30;HOGAN;Autunno - Inverno 2011;Tortora;Donna;PayPal;44;Shopper;Borse
+222;1;27/10/2010;01/11/2010;US;;Valencia;225;270;1711;3;-1;3633;270;270;135;50;1;106;HOGAN;Autunno - Inverno 2011;Nero;Uomo;PayPal;10;Sneakers;Calzature
+223;1;27/10/2010;02/11/2010;IT;LT;CASTELFORTE;216,67;260;1742;3;-1;2706;260;260;130;50;1;104;TOD'S;Autunno - Inverno 2011;Blu notte;Uomo;Bonifico Bancario;10;Polacco;Calzature
+224;1;27/10/2010;04/11/2010;IT;LU;VIAREGGIO;66,67;80;1697;3;-1;4790;100;100;50;50;1;4;SUN 68;Autunno - Inverno 2011;Azzurro;Uomo;PayPal;2;Maglieria;Abbigliamento
+225;1;28/10/2010;29/10/2010;IT;TA;GINOSA;275,83;331;523;4;-1;8314;156;260;130;50;1;87;SANTONI;Autunno - Inverno 2011;Grigio;Donna;PayPal;9;Sneakers;Calzature
+225;1;28/10/2010;29/10/2010;IT;TA;GINOSA;275,83;331;523;4;-1;2356;175;175;175;0;0;30;BURBERRY;Autunno - Inverno 2011;Bianco - Nero;Donna;PayPal;3;Sciarpe e Foulard;Accessori
+226;1;28/10/2010;03/11/2010;IT;VT;CORCHIANO;60;72;1722;3;-1;5180;92;92;46;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Panna;Uomo;PayPal;2;Maglieria;Abbigliamento
+227;1;30/10/2010;05/11/2010;IT;RO;LENDINARA;161,67;194;1744;3;-1;8719;214;214;107;50;1;29;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+228;1;31/10/2010;08/11/2010;IT;CA;IGLESIAS;377,5;453;1547;3;-1;6329;473;473;237;50;1;67;DUVETICA;Autunno - Inverno 2011;Grigio scuro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+229;1;31/10/2010;05/11/2010;IT;CZ;CURINGA;75;90;1782;3;-1;8389;90;180;90;50;1;626;SANTONI;Autunno - Inverno 2011;Blu medio;Junior Boy;Contrassegno;18;Sneakers;Calzature
+230;1;02/11/2010;05/11/2010;IT;RA;FAENZA;245,83;295;214;3;-1;7062;145;145;73;50;1;4;TOY G;Autunno - Inverno 2011;Beige;Donna;PayPal;3;Abiti;Abbigliamento
+230;1;02/11/2010;05/11/2010;IT;RA;FAENZA;245,83;295;214;3;-1;3114;85;85;43;50;1;4;TOY G;Autunno - Inverno 2011;Grigio;Donna;PayPal;3;Topwear;Abbigliamento
+230;1;02/11/2010;05/11/2010;IT;RA;FAENZA;245,83;295;214;3;-1;4970;65;65;33;50;1;3;FIX DESIGN;Autunno - Inverno 2011;Grigio;Donna;PayPal;3;Pantaloni;Abbigliamento
+231;1;02/11/2010;05/11/2010;IT;BN;BENEVENTO;116,67;140;1817;3;-1;6682;160;160;80;50;1;30;2 MEN;Autunno - Inverno 2011;Denim chiaro;Uomo;Contrassegno;2;Jeans;Abbigliamento
+232;1;02/11/2010;08/11/2010;IT;CZ;GIMIGLIANO;210;252;1219;3;-1;5155;252;252;126;50;1;29;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+233;1;04/11/2010;08/11/2010;IT;BA;Bari;245,83;295;1752;4;-1;4411;295;295;148;50;1;79;PRADA SPORT;Autunno - Inverno 2011;Nero;Donna;Bonifico Bancario;9;Decolletes;Calzature
+234;1;04/11/2010;09/11/2010;IT;RG;RAGUSA;87,5;105;1834;3;-1;7552;125;125;63;50;1;5;BURBERRY;Autunno - Inverno 2011;Blu notte;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+235;1;05/11/2010;11/11/2010;IT;RM;ROMA;124,17;149;1813;4;-1;2860;149;149;75;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Bianco;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+236;1;08/11/2010;11/11/2010;IT;ME;SANTA DOMENICA VITTORIA;219,17;263;1161;3;-1;8790;98;98;49;50;1;3;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;PayPal;2;Pantaloni;Abbigliamento
+236;1;08/11/2010;11/11/2010;IT;ME;SANTA DOMENICA VITTORIA;219,17;263;1161;3;-1;7784;165;165;83;50;1;29;JAGGY;Autunno - Inverno 2011;Denim chiaro;Uomo;PayPal;2;Jeans;Abbigliamento
+237;1;08/11/2010;10/11/2010;IT;RM;ROMA;225;270;1863;3;-1;9069;270;270;135;50;1;105;TOD'S;Autunno - Inverno 2011;Grigio;Uomo;PayPal;10;Sneakers;Calzature
+240;1;08/11/2010;11/11/2010;IT;BZ;LAIVES;325;390;1888;4;-1;9010;390;650;325;50;1;5;FAY;Autunno - Inverno 2011;Panna;Donna;Bonifico Bancario;3;Capispalla;Abbigliamento
+241;1;09/11/2010;12/11/2010;IT;AR;PERGINE VALDARNO;210,83;212;1897;3;-1;2892;159;118;59;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+241;1;09/11/2010;12/11/2010;IT;AR;PERGINE VALDARNO;210,83;212;1897;3;-1;2880;94;94;47;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Bluette;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+243;1;13/11/2010;18/11/2010;ES;BA;BARCELONA;369,13;442,95;883;3;-1;6328;473;473;237;50;1;66;DUVETICA;Autunno - Inverno 2011;Grigio scuro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+244;1;13/11/2010;17/11/2010;IT;TO;GRUGLIASCO;354,17;425;1965;4;-1;8722;425;425;213;50;1;72;HETREGO';Autunno - Inverno 2011;Blu medio;Donna;Bonifico Bancario;3;Capispalla;Abbigliamento
+245;1;14/11/2010;17/11/2010;IT;BG;SERIATE;80,83;97;990;4;-1;8427;97;193;97;50;1;624;ASPESI;Autunno - Inverno 2011;Celeste;Junior Girl;Carta di Credito;18;Capispalla;Abbigliamento
+247;1;16/11/2010;23/11/2010;IT;RG;RAGUSA;200;240;1834;3;-1;5634;240;240;120;50;1;103;HOGAN;Autunno - Inverno 2011;Marrone - Castoro;Uomo;Contrassegno;10;Sneakers;Calzature
+248;1;16/11/2010;23/11/2010;IT;GE;GENOVA;58,33;70;1996;3;-1;5216;70;70;35;50;1;6;SUN 68;Autunno - Inverno 2011;Grigio medio;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+252;1;15/11/2010;16/11/2010;IT;CA;Cagliari;120,83;146;1969;4;-1;6384;145;145;73;50;1;623;HOGAN;Autunno - Inverno 2011;Grigio medio;Junior Boy;Contrassegno;18;Sneakers;Calzature
+253;1;17/11/2010;19/11/2010;IT;CZ;GIMIGLIANO;78,33;94;1219;3;-1;2884;94;94;47;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu scuro;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+254;1;17/11/2010;19/11/2010;IT;PI;PISA;212,5;255;1976;3;-1;5721;275;275;138;50;1;6;BURBERRY;Autunno - Inverno 2011;Blu scuro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+255;1;18/11/2010;19/11/2010;IT;IS;ISERNIA;200;240;2024;3;-1;8577;240;240;120;50;1;101;HOGAN;Autunno - Inverno 2011;Blu - Marrone;Uomo;Contrassegno;10;Sneakers;Calzature
+257;1;18/11/2010;23/11/2010;AF;TR;PONZANO VENETO;100;120;1105;3;-1;5242;120;120;60;50;1;5;SUN 68;Autunno - Inverno 2011;Grigio scuro;Uomo;PayPal;2;Maglieria;Abbigliamento
+258;1;22/11/2010;24/11/2010;IT;MI;BIASSONO;135;162;2069;4;-1;4923;162;323;162;50;1;615;ASPESI;Autunno - Inverno 2011;Grigio;Kids Boy;PayPal;16;Capispalla;Abbigliamento
+259;1;22/11/2010;24/11/2010;IT;TA;TARANTO;225;270;2066;4;-1;4406;290;290;145;50;1;83;HOGAN;Autunno - Inverno 2011;Grigio medio;Donna;Carta di Credito;9;Stivaletti;Calzature
+260;1;22/11/2010;24/11/2010;IT;AV;AVELLA;202,5;243;898;4;-1;3881;138;275;138;50;1;624;HISTORIC RESEARCH;Autunno - Inverno 2011;Avio;Junior Girl;Carta di Credito;18;Capispalla;Abbigliamento
+260;1;22/11/2010;24/11/2010;IT;AV;AVELLA;202,5;243;898;4;-1;8272;105;150;75;50;1;4;BURBERRY;Autunno - Inverno 2011;Rosso;Donna;Carta di Credito;3;Topwear;Abbigliamento
+263;1;23/11/2010;26/11/2010;RU;Mo;Moscow;333,33;400;2091;4;-1;4944;400;400;200;50;1;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Carta di Credito;45;Bauletti;Borse
+265;1;23/11/2010;26/11/2010;IT;RG;RAGUSA;114,17;137;1838;3;-1;2527;137;273;137;50;1;31;ROY ROGERS;Autunno - Inverno 2011;Nero;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+267;1;23/11/2010;25/11/2010;IT;PT;AGLIANA;270,83;325;1527;4;-1;2754;325;650;325;50;0;30;FAY;Autunno - Inverno 2011;Verde muschio;Donna;PayPal;44;Shopper;Borse
+268;1;23/11/2010;26/11/2010;IT;SI;ABBADIA SAN SALVATORE;114,17;137;2108;3;-1;2523;137;273;137;50;1;29;ROY ROGERS;Autunno - Inverno 2011;Viola Scuro;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+269;1;24/11/2010;26/11/2010;IT;BA;GRAVINA IN PUGLIA;229,17;275;2112;3;-1;18366;295;300;150;50;1;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Uomo;PayPal;41;Tracolla;Borse
+273;1;24/11/2010;06/12/2010;KR;Se;Seoul;191,67;230;2124;3;-1;5488;250;250;125;50;1;3;ASPESI;Autunno - Inverno 2011;Blu medio;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+274;1;25/11/2010;26/11/2010;IT;CS;RENDE;50;60;2120;4;-1;8408;60;120;60;50;1;609;TOD'S;Autunno - Inverno 2011;Beige;Baby Boy;Carta di Credito;17;Sneakers;Calzature
+275;1;25/11/2010;29/11/2010;IT;FR;FROSINONE;112,5;135;2140;3;-1;4861;135;270;135;50;1;3;FAY;Autunno - Inverno 2011;Blu scuro;Uomo;PayPal;2;Maglieria;Abbigliamento
+277;1;27/11/2010;02/12/2010;IT;SS;SASSARI;52,5;63;1325;3;-1;8399;63;125;63;50;1;619;TOD'S;Autunno - Inverno 2011;Testa di moro;Kids Boy;PayPal;16;Sneakers;Calzature
+278;1;28/11/2010;30/11/2010;IT;FG;SAN GIOVANNI ROTONDO;102,5;123;2200;3;-1;3014;123;175;88;50;1;85;D'ACQUASPARTA;Autunno - Inverno 2011;Blu - Bianco;Donna;PayPal;9;Sneakers;Calzature
+279;1;29/11/2010;30/11/2010;IT;RM;AFFILE;198,33;238;1884;4;-1;9024;238;475;238;50;1;615;FAY;Autunno - Inverno 2011;Panna;Kids Girl;Contrassegno;16;Capispalla;Abbigliamento
+281;1;29/11/2010;02/12/2010;IT;TO;SAN MAURO TORINESE;279,17;335;2233;3;-1;6209;335;335;168;50;1;30;HETREGO';Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+283;1;29/11/2010;13/12/2010;IT;ca;cagliari;915,83;1099;2239;4;-1;7220;90;90;45;50;1;617;FRED PERRY;Autunno - Inverno 2011;Grigio - Nero;Kids Boy;Bonifico Bancario;16;Maglieria;Abbigliamento
+283;1;29/11/2010;13/12/2010;IT;ca;cagliari;915,83;1099;2239;4;-1;5818;85;85;43;50;1;617;VILEBREQUIN;Autunno - Inverno 2011;Grigio;Kids Boy;Bonifico Bancario;16;Pantaloni;Abbigliamento
+283;1;29/11/2010;13/12/2010;IT;ca;cagliari;915,83;1099;2239;4;-1;5388;125;125;63;50;1;617;VILEBREQUIN;Autunno - Inverno 2011;Blu scuro;Kids Boy;Bonifico Bancario;16;Maglieria;Abbigliamento
+283;1;29/11/2010;13/12/2010;IT;ca;cagliari;915,83;1099;2239;4;-1;5390;105;105;53;50;1;617;JACOB COHEN;Autunno - Inverno 2011;Blu scuro;Kids Boy;Bonifico Bancario;16;Maglieria;Abbigliamento
+283;1;29/11/2010;13/12/2010;IT;ca;cagliari;915,83;1099;2239;4;-1;3390;78;78;39;50;1;617;AERONAUTICA MILITARE;Autunno - Inverno 2011;Grigio;Kids Boy;Bonifico Bancario;16;Maglieria;Abbigliamento
+283;1;29/11/2010;13/12/2010;IT;ca;cagliari;915,83;1099;2239;4;-1;5783;273;273;137;50;1;617;CLUB DES SPORTS;Autunno - Inverno 2011;Blu notte;Kids Boy;Bonifico Bancario;16;Capispalla;Abbigliamento
+283;1;29/11/2010;13/12/2010;IT;ca;cagliari;915,83;1099;2239;4;-1;5820;85;85;43;50;1;617;VILEBREQUIN;Autunno - Inverno 2011;Blu scuro;Kids Boy;Bonifico Bancario;16;Pantaloni;Abbigliamento
+283;1;29/11/2010;13/12/2010;IT;ca;cagliari;915,83;1099;2239;4;-1;8874;258;258;129;50;1;617;FERRARI;Autunno - Inverno 2011;Grigio - Blu;Kids Boy;Bonifico Bancario;16;Completi;Abbigliamento
+284;1;30/11/2010;02/12/2010;IT;BA;GRAVINA IN PUGLIA;91,67;110;2112;3;-1;10719;110;110;55;50;1;612;HOGAN;Autunno - Inverno 2011;Grigio;Baby Boy;PayPal;17;Sneakers;Calzature
+285;1;30/11/2010;03/12/2010;AT;Vi;Vienna;329,17;395;2258;3;-1;5529;395;395;198;50;1;32;DUVETICA;Autunno - Inverno 2011;Nero;Uomo;PayPal;2;Capispalla;Abbigliamento
+286;1;01/12/2010;03/12/2010;IT;FR;FROSINONE;187,5;225;305;4;-1;3317;225;225;113;50;1;6;ETRO;Autunno - Inverno 2011;Multicolor;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+287;1;01/12/2010;03/12/2010;IT;ME;MESSINA;87,5;105;1688;3;-1;7551;125;125;63;50;1;4;BURBERRY;Autunno - Inverno 2011;Blu notte;Uomo;PayPal;2;Maglieria;Abbigliamento
+288;1;01/12/2010;06/12/2010;IT;TP;ERICE;104,17;125;2307;3;-1;5682;125;125;63;50;1;3;BURBERRY;Autunno - Inverno 2011;Celeste;Uomo;Contrassegno;2;Camicie;Abbigliamento
+290;1;02/12/2010;06/12/2010;IT;TN;TRENTO;190;228;2289;4;-1;2512;228;455;228;50;1;69;DUVETICA;Autunno - Inverno 2011;Nero;Donna;Contrassegno;3;Capispalla;Abbigliamento
+291;1;02/12/2010;10/12/2010;IT;FG;MATTINATA;64,17;77;2297;4;-1;9708;77;77;54;30;0;30;BURBERRY;Autunno - Inverno 2011;Bianco;Baby Boy;Bonifico Bancario;17;Bavette;Accessori
+293;1;03/12/2010;07/12/2010;IT;TO;COLLEGNO;102,5;123;2314;3;-1;3012;123;175;88;50;1;81;D'ACQUASPARTA;Autunno - Inverno 2011;Blu - Bianco;Donna;Carta di Credito;9;Sneakers;Calzature
+295;1;03/12/2010;10/12/2010;IT;VI;VICENZA;112,5;135;2315;4;-1;6720;135;135;68;50;1;4;PAUL SMITH;Autunno - Inverno 2011;Blu scuro;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+296;1;03/12/2010;10/12/2010;IT;ME;MESSINA;208,33;250;1688;3;-1;10740;125;125;63;50;1;4;BURBERRY;Autunno - Inverno 2011;Celeste;Uomo;PayPal;2;Camicie;Abbigliamento
+296;1;03/12/2010;10/12/2010;IT;ME;MESSINA;208,33;250;1688;3;-1;10741;125;125;63;50;1;5;BURBERRY;Autunno - Inverno 2011;Celeste;Uomo;PayPal;2;Camicie;Abbigliamento
+298;1;04/12/2010;10/12/2010;IT;FR;ANAGNI;130;156;2325;3;-1;3565;156;156;78;50;1;33;9.2;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Pantaloni;Abbigliamento
+299;1;05/12/2010;10/12/2010;IT;CZ;GIMIGLIANO;400;480;1219;3;-1;9375;320;320;160;50;1;100;SANTONI;Autunno - Inverno 2011;Grigio;Uomo;Contrassegno;10;Stivali;Calzature
+299;1;05/12/2010;10/12/2010;IT;CZ;GIMIGLIANO;400;480;1219;3;-1;8537;160;160;80;50;1;29;JECKERSON;Autunno - Inverno 2011;Denim;Uomo;Contrassegno;2;Jeans;Abbigliamento
+300;1;06/12/2010;15/12/2010;IT;NA;NAPOLI;499,17;599;2364;4;-1;9004;599;998;499;50;1;2;FAY;Autunno - Inverno 2011;Bouganville;Donna;Bonifico Bancario;3;Capispalla;Abbigliamento
+301;1;06/12/2010;15/12/2010;IT;PZ;POTENZA;104,17;125;2366;3;-1;7557;125;125;63;50;1;4;BURBERRY;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+302;1;06/12/2010;10/12/2010;IT;SI;MONTERIGGIONI;458,33;550;2301;4;-1;2932;168;335;168;50;1;459;CUCINELLI;Autunno - Inverno 2011;Fumo;Uomo;PayPal;2;Maglieria;Abbigliamento
+302;1;06/12/2010;10/12/2010;IT;SI;MONTERIGGIONI;458,33;550;2301;4;-1;7528;382;382;191;50;1;622;FAY;Autunno - Inverno 2011;Blu medio;Junior Girl;PayPal;18;Capispalla;Abbigliamento
+303;1;07/12/2010;10/12/2010;IT;CZ;LAMEZIA TERME;175;210;2372;3;-1;9705;210;210;105;50;1;459;FAY;Autunno - Inverno 2011;Blu royal;Uomo;PayPal;2;Maglieria;Abbigliamento
+304;1;07/12/2010;10/12/2010;IT;LI;ROSIGNANO MARITTIMO;58,33;70;2375;4;-1;6877;70;70;70;0;0;30;BURBERRY;Primavera - Estate 2012;Classic Check;Uomo;Contrassegno;2;Portachiavi;Accessori
+306;1;08/12/2010;20/12/2010;US;WA;SEATTLE;254,17;305;2285;3;-1;8371;145;155;78;50;0;30;ETRO;Primavera - Estate 2012;Etro cashmere-Camel;Uomo;Carta di Credito;2;Portafogli;Accessori
+306;1;08/12/2010;20/12/2010;US;WA;SEATTLE;254,17;305;2285;3;-1;2151;180;180;90;50;1;31;ETRO;Autunno - Inverno 2011;Multicolor;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+307;1;09/12/2010;13/12/2010;IT;AL;FRUGAROLO;41,67;50;2400;4;-1;10021;70;70;35;50;1;6;SUN 68;Autunno - Inverno 2011;Grigio scuro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+309;1;09/12/2010;13/12/2010;IT;AN;MONTE SAN VITO;114,17;137;2005;3;-1;9631;157;157;79;50;1;438;SIVIGLIA WHITE;Autunno - Inverno 2011;Nero;Uomo;PayPal;2;Pantaloni;Abbigliamento
+329;1;09/12/2010;15/12/2010;IT;VA;BREBBIA;225;270;2413;4;-1;4946;270;270;270;0;0;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Contrassegno;3;Portafogli;Accessori
+331;1;09/12/2010;15/12/2010;IT;SA;CAMEROTA;104,17;125;1848;4;-1;10743;125;125;63;50;1;7;BURBERRY;Autunno - Inverno 2011;Celeste;Uomo;Contrassegno;2;Camicie;Abbigliamento
+332;1;10/12/2010;13/12/2010;IT;PV;PAVIA;87,5;105;1032;4;-1;8268;105;150;75;50;1;2;BURBERRY;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Topwear;Abbigliamento
+334;1;10/12/2010;15/12/2010;IT;RG;MODICA;104,17;125;1175;3;-1;10739;125;125;63;50;1;3;BURBERRY;Autunno - Inverno 2011;Celeste;Uomo;PayPal;2;Camicie;Abbigliamento
+335;1;10/12/2010;15/12/2010;IT;MI;ABBIATEGRASSO;90,83;109;1772;4;-1;8416;109;218;109;50;1;610;ASPESI;Autunno - Inverno 2011;Viola Scuro;Baby Girl;Carta di Credito;17;Capispalla;Abbigliamento
+336;1;10/12/2010;21/12/2010;IT;Mi;Verano Brianza;312,5;375;2428;3;-1;6620;375;375;188;50;1;6;CLUB DES SPORTS;Autunno - Inverno 2011;Nero;Uomo;PayPal;2;Capispalla;Abbigliamento
+337;1;10/12/2010;20/12/2010;ES;BA;BARCELONA;788,33;946;883;3;-1;6327;473;473;237;50;1;69;DUVETICA;Autunno - Inverno 2011;Blu scuro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+337;1;10/12/2010;20/12/2010;ES;BA;BARCELONA;788,33;946;883;3;-1;6335;473;473;237;50;1;69;DUVETICA;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+338;1;10/12/2010;15/12/2010;IT;PA;PALERMO;75,83;91;1708;4;-1;9762;91;91;46;50;1;613;TIMBERLAND;Autunno - Inverno 2011;Blu;Kids Boy;Contrassegno;16;Capispalla;Abbigliamento
+341;1;13/12/2010;20/12/2010;IT;MI;PIOLTELLO;916,67;1100;2491;4;-1;5422;1100;1100;550;50;1;2;FAY;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+342;1;13/12/2010;22/12/2010;GB;KT;Epsom;320,83;385;2493;3;-1;1767;190;190;95;50;1;30;ETRO;Autunno - Inverno 2011;Blu scuro;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+342;1;13/12/2010;22/12/2010;GB;KT;Epsom;320,83;385;2493;3;-1;10919;195;200;100;50;0;30;ETRO;Primavera - Estate 2012;Etro cashmere-Camel;Uomo;Carta di Credito;2;Beauty Case;Accessori
+343;1;13/12/2010;15/12/2010;IT;br;cisternino;35,83;43;2494;3;-1;10822;19;19;19;0;0;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Contrassegno;45;Fermacoda;Accessori
+343;1;13/12/2010;15/12/2010;IT;br;cisternino;35,83;43;2494;3;-1;10817;24;24;12;50;1;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Contrassegno;45;Pochette;Borse
+344;1;14/12/2010;21/12/2010;RU;Mo;Moscow;199,17;239;2091;4;-1;7369;55;55;55;0;0;30;TOY G;Autunno - Inverno 2011;Grigio;Donna;Carta di Credito;46;Cappelli;Accessori
+344;1;14/12/2010;21/12/2010;RU;Mo;Moscow;199,17;239;2091;4;-1;10818;120;120;120;0;0;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Carta di Credito;44;Shopper;Borse
+344;1;14/12/2010;21/12/2010;RU;Mo;Moscow;199,17;239;2091;4;-1;10842;45;45;45;0;0;30;TOY G;Autunno - Inverno 2011;Grigio;Donna;Carta di Credito;3;Scaldacollo;Accessori
+344;1;14/12/2010;21/12/2010;RU;Mo;Moscow;199,17;239;2091;4;-1;10822;19;19;19;0;0;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Carta di Credito;45;Fermacoda;Accessori
+345;1;14/12/2010;20/12/2010;IT;Ve;Verbania;124,17;149;2508;4;-1;2861;149;149;75;50;1;5;AERONAUTICA MILITARE;Autunno - Inverno 2011;Bianco;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+346;1;14/12/2010;20/12/2010;IT;AR;STIA;166,67;200;2511;4;-1;7336;220;220;110;50;1;87;HOGAN REBEL;Autunno - Inverno 2011;Beige;Donna;Contrassegno;9;Sneakers;Calzature
+347;1;14/12/2010;20/12/2010;IT;PG;CITERNA;145,83;175;2446;4;-1;6748;175;175;88;50;1;552;TWO WOMEN IN THE WORLD;Autunno - Inverno 2011;Denim;Donna;Contrassegno;3;Jeans;Abbigliamento
+348;1;15/12/2010;20/12/2010;AF;NA;NAPOLI;200;240;1102;3;-1;3859;240;240;120;50;1;106;HOGAN;Autunno - Inverno 2011;Grigio - Blu;Uomo;Contrassegno;10;Sneakers;Calzature
+349;1;15/12/2010;20/12/2010;IT;BA;Molfetta;444,17;533;2362;4;-1;4131;153;153;77;50;1;552;ROY ROGERS;Autunno - Inverno 2011;Blu scuro;Donna;Contrassegno;3;Pantaloni;Abbigliamento
+349;1;15/12/2010;20/12/2010;IT;BA;Molfetta;444,17;533;2362;4;-1;10412;110;110;55;50;1;3;SUN 68;Autunno - Inverno 2011;Blu;Donna;Contrassegno;3;Abiti;Abbigliamento
+349;1;15/12/2010;20/12/2010;IT;BA;Molfetta;444,17;533;2362;4;-1;8706;110;110;55;50;1;3;SUN 68;Autunno - Inverno 2011;Bluette;Donna;Contrassegno;3;Maglieria;Abbigliamento
+349;1;15/12/2010;20/12/2010;IT;BA;Molfetta;444,17;533;2362;4;-1;8303;160;320;160;50;1;79;TOD'S;Autunno - Inverno 2011;Azzurro;Donna;Contrassegno;9;Decolletes;Calzature
+357;1;17/12/2010;20/12/2010;IT;TA;SAN GIORGIO IONICO;95,83;115;2437;3;-1;10949;115;115;115;0;0;30;PUCCI;Autunno - Inverno 2011;Fucsia;Donna;Carta di Credito;3;Sciarpe e Foulard;Accessori
+358;1;17/12/2010;22/12/2010;IT;BA;TURI;57,5;69;2532;4;-1;10584;69;115;58;50;1;611;HOGAN;Autunno - Inverno 2011;Platino;Baby Girl;Contrassegno;17;Sneakers;Calzature
+359;1;17/12/2010;21/12/2010;IT;MO;SPILAMBERTO;170,83;205;2538;3;-1;4248;205;205;103;50;1;7;ETRO;Autunno - Inverno 2011;Viola Scuro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+360;1;17/12/2010;21/12/2010;IT;BL;BELLUNO;130,83;157;2535;3;-1;9617;157;157;79;50;1;29;SIVIGLIA WHITE;Autunno - Inverno 2011;Grigio chiaro;Uomo;Carta di Credito;2;Pantaloni;Abbigliamento
+361;1;17/12/2010;23/12/2010;IT;NA;PALMA CAMPANIA;158,33;190;422;3;-1;9704;210;210;105;50;1;33;FAY;Autunno - Inverno 2011;Blu royal;Uomo;PayPal;2;Maglieria;Abbigliamento
+362;1;17/12/2010;24/12/2010;IT;VT;VITERBO;304,17;365;2541;3;-1;9602;365;365;183;50;1;5;CLUB DES SPORTS;Autunno - Inverno 2011;Rosso-Blu;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+364;1;17/12/2010;22/12/2010;IT;BR;FRANCAVILLA FONTANA;216,67;260;1206;3;-1;10818;120;120;120;0;0;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Contrassegno;44;Shopper;Borse
+364;1;17/12/2010;22/12/2010;IT;BR;FRANCAVILLA FONTANA;216,67;260;1206;3;-1;11208;66;66;66;0;0;30;ETRO;Autunno - Inverno 2011;Rosso;Donna;Contrassegno;3;Portafogli;Accessori
+364;1;17/12/2010;22/12/2010;IT;BR;FRANCAVILLA FONTANA;216,67;260;1206;3;-1;10792;49;49;35;30;0;606;FAY;Autunno - Inverno 2011;Panna;Baby Girl;Contrassegno;17;Cappelli;Accessori
+364;1;17/12/2010;22/12/2010;IT;BR;FRANCAVILLA FONTANA;216,67;260;1206;3;-1;10791;45;45;32;30;0;606;FAY;Autunno - Inverno 2011;Panna;Baby Girl;Contrassegno;17;Sciarpe e Foulard;Accessori
+365;1;18/12/2010;21/12/2010;IT;BR;BRINDISI;53,33;64;2537;4;-1;9752;84;84;42;50;1;612;TIMBERLAND;Autunno - Inverno 2011;Rosso;Baby Boy;Carta di Credito;17;Capispalla;Abbigliamento
+366;1;18/12/2010;22/12/2010;IT;TA;MASSAFRA;70,83;85;1081;3;-1;5096;85;170;85;50;1;553;JECKERSON;Autunno - Inverno 2011;Ghiaccio;Donna;Carta di Credito;3;Jeans;Abbigliamento
+367;1;19/12/2010;22/12/2010;IT;TA;MASSAFRA;104,17;125;2533;4;-1;8434;125;250;125;50;1;626;HISTORIC RESEARCH;Autunno - Inverno 2011;Bordeaux;Junior Girl;Contrassegno;18;Capispalla;Abbigliamento
+368;1;19/12/2010;22/12/2010;IT;CS;CORIGLIANO CALABRO;62,5;75;1616;4;-1;2612;75;150;75;50;1;3;ALTEA;Autunno - Inverno 2011;Nero;Donna;Contrassegno;3;Abiti;Abbigliamento
+370;1;20/12/2010;23/12/2010;IT;CZ;CATANZARO;187,5;225;2576;4;-1;6431;225;225;113;50;1;107;BURBERRY;Autunno - Inverno 2011;Classic Check;Uomo;Contrassegno;10;Sneakers;Calzature
+379;1;20/12/2010;24/12/2010;IT;AG;SAMBUCA DI SICILIA;75;90;568;3;-1;8987;90;180;90;50;1;619;TOD'S;Autunno - Inverno 2011;Nero;Kids Girl;Carta di Credito;16;Stivali;Calzature
+380;1;20/12/2010;24/12/2010;IT;BG;OSIO SOTTO;220,83;265;1652;3;-1;10739;125;125;63;50;1;3;BURBERRY;Autunno - Inverno 2011;Celeste;Uomo;Contrassegno;2;Camicie;Abbigliamento
+380;1;20/12/2010;24/12/2010;IT;BG;OSIO SOTTO;220,83;265;1652;3;-1;9680;140;140;70;50;1;28;FAY;Autunno - Inverno 2011;Avio;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+381;1;20/12/2010;23/12/2010;IT;LE;GALATINA;223,33;268;2591;4;-1;8150;268;535;268;50;1;30;TONELLO;Autunno - Inverno 2011;Grigio;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+382;1;20/12/2010;30/12/2010;IT;CH;CHIETI;75;90;2584;4;-1;10747;90;90;90;0;0;30;PAUL SMITH;Autunno - Inverno 2011;Multicolor;Uomo;Carta di Credito;2;Sciarpe e Foulard;Accessori
+383;1;20/12/2010;23/12/2010;IT;KR;PETILIA POLICASTRO;66,67;80;2592;3;-1;4351;80;80;56;30;0;259;ANDERSONS;Autunno - Inverno 2011;Marrone;Uomo;Contrassegno;24;Cinture;Accessori
+385;1;21/12/2010;24/12/2010;IT;TV;SAN BIAGIO DI CALLALTA;71,67;86;2599;4;-1;10921;86;86;86;0;0;30;ACQUA DI PARMA;Autunno - Inverno 2011;No Color;Uomo;Bonifico Bancario;24;Profumi;Profumi
+387;1;21/12/2010;23/12/2010;IT;RO;;200;240;2590;3;-1;4754;240;240;120;50;1;107;HOGAN REBEL;Autunno - Inverno 2011;Marrone;Uomo;Contrassegno;10;Sneakers;Calzature
+388;1;21/12/2010;30/12/2010;IT;NA;MARIGLIANELLA;120;144;2608;4;-1;7834;144;144;72;50;1;4;JAGGY;Autunno - Inverno 2011;Blu notte;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+389;1;22/12/2010;30/12/2010;RU;Mo;Moscow;869,16;869,16;2091;4;-1;11205;238;238;119;50;1;30;ETRO;Autunno - Inverno 2011;Blu;Donna;Carta di Credito;45;Bauletti;Borse
+389;1;22/12/2010;30/12/2010;RU;Mo;Moscow;869,16;869,16;2091;4;-1;11192;535;535;268;50;1;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Carta di Credito;45;Tracolla;Borse
+389;1;22/12/2010;30/12/2010;RU;Mo;Moscow;869,16;869,16;2091;4;-1;4946;270;270;270;0;0;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Donna;Carta di Credito;3;Portafogli;Accessori
+393;1;22/12/2010;30/12/2010;IT;NA;VICO EQUENSE;291,67;350;2616;3;-1;8654;350;350;175;50;1;3;ASPESI;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+398;1;22/12/2010;24/12/2010;IT;RO;Roma;83,34;100;1915;3;-1;10560;100;100;50;50;1;612;BURBERRY;Autunno - Inverno 2011;Rosso;Baby Girl;Contrassegno;17;Abiti;Abbigliamento
+404;1;23/12/2010;29/12/2010;IT;MI;MILANO;120,83;145;2635;3;-1;3306;145;145;73;50;0;30;ETRO;Autunno - Inverno 2011;Multicolor;Uomo;PayPal;2;Sciarpe e Foulard;Accessori
+405;1;24/12/2010;30/12/2010;AE;Du;Dubai ;290;290;2091;4;-1;11409;98,33;118;59;50;1;30;ETRO;Autunno - Inverno 2011;Arancio-Marrone;Donna;Carta di Credito;3;Shopper;Borse
+405;1;24/12/2010;30/12/2010;AE;Du;Dubai ;290;290;2091;4;-1;11448;191,67;230;230;0;0;572;ETRO;Autunno - Inverno 2011;Cuoio;Donna;Carta di Credito;44;Cinture;Accessori
+406;1;26/12/2010;29/12/2010;IT;LE;GAGLIANO DEL CAPO;130,83;157;2669;3;-1;8831;157;157;79;50;1;3;FRED PERRY;Autunno - Inverno 2011;Blu scuro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+407;1;27/12/2010;29/12/2010;IT;FR;FROSINONE;81,67;98;305;4;-1;9750;98;98;49;50;1;622;TIMBERLAND;Autunno - Inverno 2011;Blu;Junior Boy;Contrassegno;18;Capispalla;Abbigliamento
+409;1;27/12/2010;30/12/2010;IT;RO;ROMA;75;90;2686;4;-1;11037;90;180;90;50;1;553;JECKERSON;Autunno - Inverno 2011;Denim blu;Donna;Bonifico Bancario;3;Pantaloni;Abbigliamento
+410;1;28/12/2010;29/12/2010;IT;CO;MOZZATE;50;60;2383;4;-1;8414;60;120;60;50;1;615;TOD'S;Autunno - Inverno 2011;Grigio scuro;Kids Boy;Carta di Credito;16;Sneakers;Calzature
+412;1;28/12/2010;07/01/2011;IT;CE;SANTA MARIA CAPUA VETERE;208,33;250;2701;3;-1;5493;250;250;125;50;1;3;ASPESI;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+415;1;28/12/2010;30/12/2010;IT;TA;TARANTO;108,33;130;2707;3;-1;6647;130;130;65;50;1;5;FRED PERRY;Autunno - Inverno 2011;Ghiaccio;Uomo;PayPal;2;Maglieria;Abbigliamento
+416;1;28/12/2010;30/12/2010;IT;RM;ROMA;416,67;500;1339;3;-1;10350;250;250;125;50;1;109;HOGAN;Primavera - Estate 2011;Blu - Bianco;Uomo;Contrassegno;10;Sneakers;Calzature
+416;1;28/12/2010;30/12/2010;IT;RM;ROMA;416,67;500;1339;3;-1;10333;250;250;125;50;1;109;HOGAN;Primavera - Estate 2011;Grigio - Blu;Uomo;Contrassegno;10;Sneakers;Calzature
+417;1;28/12/2010;03/01/2011;IT;PA;PALERMO;200;240;2710;3;-1;10353;240;240;120;50;1;102;HOGAN;Primavera - Estate 2011;Nero;Uomo;PayPal;10;Sneakers;Calzature
+420;1;30/12/2010;07/01/2011;NL;No;Volendam;275;330;2737;4;-1;8290;350;350;175;50;1;30;HOGAN;Autunno - Inverno 2011;Nero;Donna;Bonifico Bancario;45;Shopper;Borse
+421;1;30/12/2010;31/12/2010;IT;RM;ROMA;208,33;250;1339;3;-1;10285;250;250;125;50;1;109;HOGAN;Primavera - Estate 2011;Denim blu;Uomo;Contrassegno;10;Sneakers;Calzature
+422;1;30/12/2010;07/01/2011;IT;SS;PLOAGHE;412,5;495;2740;3;-1;38181;495;525;525;0;0;30;BURBERRY;Primavera - Estate 2011;Classic check chocol;Donna;Contrassegno;45;Shopper;Borse
+426;1;31/12/2010;04/01/2011;IT;RE;CASTELNOVO DI SOTTO;87,5;105;2743;3;-1;10969;125;125;63;50;1;5;BURBERRY;Autunno - Inverno 2011;Blu;Uomo;PayPal;2;Camicie;Abbigliamento
+427;1;03/01/2011;07/01/2011;IT;CH;TOLLO;124,17;149;2803;4;-1;2496;149;298;149;50;1;67;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+429;1;03/01/2011;28/01/2011;RU;Mo;Moscow;449,17;449,17;2670;4;-1;8686;91,67;110;55;50;1;3;SUN 68;Autunno - Inverno 2011;Panna;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+429;1;03/01/2011;28/01/2011;RU;Mo;Moscow;449,17;449,17;2670;4;-1;9842;63,33;76;38;50;1;624;TIMBERLAND;Autunno - Inverno 2011;Blu royal;Junior Boy;Carta di Credito;18;Capispalla;Abbigliamento
+429;1;03/01/2011;28/01/2011;RU;Mo;Moscow;449,17;449,17;2670;4;-1;4977;58,33;70;35;50;1;3;FIX DESIGN;Autunno - Inverno 2011;Grigio;Donna;Carta di Credito;3;Abiti;Abbigliamento
+429;1;03/01/2011;28/01/2011;RU;Mo;Moscow;449,17;449,17;2670;4;-1;8154;131,67;315;158;50;1;4;ETRO;Autunno - Inverno 2011;Testa di moro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+429;1;03/01/2011;28/01/2011;RU;Mo;Moscow;449,17;449,17;2670;4;-1;2537;104,17;250;125;50;1;29;DUVETICA;Autunno - Inverno 2011;Viola Scuro;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+430;1;07/01/2011;11/01/2011;DE;Mu;Riemerling;210;252;2839;3;-1;5151;252;252;126;50;1;30;AERONAUTICA MILITARE;Autunno - Inverno 2011;Grigio scuro;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+431;1;04/01/2011;07/01/2011;IT;RM;ROMA;200;240;1339;3;-1;10242;240;240;120;50;1;109;HOGAN;Primavera - Estate 2011;Grigio - Bianco;Uomo;Contrassegno;10;Sneakers;Calzature
+433;1;04/01/2011;07/01/2011;IT;TE;TORTORETO;64,17;77;2823;3;-1;2876;97;97;49;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Uomo;PayPal;2;Maglieria;Abbigliamento
+434;1;04/01/2011;18/01/2011;CZ;ok;Velka Dobra;516,67;620;2838;4;-1;8266;105;150;75;50;1;3;BURBERRY;Autunno - Inverno 2011;Bianco;Donna;Carta di Credito;3;Topwear;Abbigliamento
+434;1;04/01/2011;18/01/2011;CZ;ok;Velka Dobra;516,67;620;2838;4;-1;8263;119;170;85;50;1;3;BURBERRY;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Topwear;Abbigliamento
+434;1;04/01/2011;18/01/2011;CZ;ok;Velka Dobra;516,67;620;2838;4;-1;2499;396;792;396;50;1;67;AERONAUTICA MILITARE;Autunno - Inverno 2011;Testa di moro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+435;1;05/01/2011;07/01/2011;IT;PT;PISTOIA;87,5;105;110;3;-1;8232;105;105;53;50;1;4;FIX DESIGN;Autunno - Inverno 2011;Grigio;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+436;1;05/01/2011;10/01/2011;IT;TO;TORINO;194,17;233;2847;3;-1;5510;233;333;167;50;1;30;DUVETICA;Autunno - Inverno 2011;Blu medio;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+437;1;05/01/2011;10/01/2011;IT;FR;isola del liri;240;288;2887;3;-1;6534;288;412;206;50;1;624;FAY;Autunno - Inverno 2011;Nero;Junior Girl;PayPal;18;Capispalla;Abbigliamento
+438;1;05/01/2011;12/01/2011;IT;UD;UDINE;1090,83;1309;2689;4;-1;5418;770;1100;550;50;1;2;FAY;Autunno - Inverno 2011;Mastice;Donna;Bonifico Bancario;3;Capispalla;Abbigliamento
+438;1;05/01/2011;12/01/2011;IT;UD;UDINE;1090,83;1309;2689;4;-1;11787;539;770;385;50;1;3;FAY;Autunno - Inverno 2011;Grigio;Donna;Bonifico Bancario;3;Capispalla;Abbigliamento
+440;1;05/01/2011;11/01/2011;IT;LU;VIAREGGIO;131,25;157,5;1697;3;-1;3524;157,5;225;113;50;1;4;CLUB DES SPORTS;Autunno - Inverno 2011;Blu - Rosso;Uomo;PayPal;2;Capispalla;Abbigliamento
+441;1;05/01/2011;11/01/2011;IT;VT;ACQUAPENDENTE;641,67;770;2880;4;-1;5425;770;1100;550;50;1;5;FAY;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+445;1;06/01/2011;11/01/2011;IT;CE;CAPUA;460,83;553;2901;3;-1;9456;553;790;395;50;1;4;FAY;Autunno - Inverno 2011;Nero;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+447;1;06/01/2011;12/01/2011;JP;;izumi;388,5;388,5;2903;3;-1;5508;194,25;333;167;50;1;28;DUVETICA;Autunno - Inverno 2011;Blu medio;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+447;1;06/01/2011;12/01/2011;JP;;izumi;388,5;388,5;2903;3;-1;5509;194,25;333;167;50;1;29;DUVETICA;Autunno - Inverno 2011;Blu medio;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+451;1;06/01/2011;11/01/2011;IT;FR;FROSINONE;122,5;147;2140;3;-1;10010;77;110;55;50;1;3;SUN 68;Autunno - Inverno 2011;Grigio - Blu;Uomo;PayPal;2;Maglieria;Abbigliamento
+451;1;06/01/2011;11/01/2011;IT;FR;FROSINONE;122,5;147;2140;3;-1;5226;70;100;50;50;1;3;SUN 68;Autunno - Inverno 2011;Grigio;Uomo;PayPal;2;Maglieria;Abbigliamento
+453;1;06/01/2011;11/01/2011;IT;SS;SASSARI;285,83;343;2904;3;-1;6022;185,5;265;133;50;1;103;SANTONI;Autunno - Inverno 2011;Blu - Azzurro;Uomo;Carta di Credito;10;Sneakers;Calzature
+453;1;06/01/2011;11/01/2011;IT;SS;SASSARI;285,83;343;2904;3;-1;8159;157,5;315;158;50;1;6;ETRO;Autunno - Inverno 2011;Viola Scuro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+454;1;06/01/2011;11/01/2011;IT;SS;SASSARI;172,08;206,5;2892;3;-1;6029;206,5;295;148;50;1;101;SANTONI;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;10;Sneakers;Calzature
+455;1;06/01/2011;12/01/2011;HK;Ho;Hong Kong;345;345;2656;4;-1;8364;345;690;345;50;1;5;HOGAN;Autunno - Inverno 2011;Nero;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+456;1;06/01/2011;11/01/2011;IT;PD;PADOVA;500,5;600,6;2898;3;-1;4659;112;160;80;50;1;434;CAVALLERIA TOSCANA;Autunno - Inverno 2011;Blu scuro;Uomo;PayPal;2;Pantaloni;Abbigliamento
+456;1;06/01/2011;11/01/2011;IT;PD;PADOVA;500,5;600,6;2898;3;-1;9497;488,6;698;349;50;1;3;FAY;Autunno - Inverno 2011;Blu notte;Uomo;PayPal;2;Capispalla;Abbigliamento
+457;1;06/01/2011;12/01/2011;CA;On;Toronto;89,83;89,83;1342;4;-1;2853;89,83;154;77;50;1;5;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Uomo;PayPal;2;Maglieria;Abbigliamento
+458;1;06/01/2011;12/01/2011;IT;TN;TRENTO;108,33;130;2546;4;-1;10543;130;162;81;50;1;609;BURBERRY;Autunno - Inverno 2011;Panna;Baby Girl;Contrassegno;17;Maglieria;Abbigliamento
+459;1;07/01/2011;14/01/2011;ES;BA;BARCELONA;827,75;993,3;883;3;-1;6324;331,1;473;237;50;1;66;DUVETICA;Autunno - Inverno 2011;Blu scuro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+459;1;07/01/2011;14/01/2011;ES;BA;BARCELONA;827,75;993,3;883;3;-1;6333;331,1;473;237;50;1;67;DUVETICA;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+459;1;07/01/2011;14/01/2011;ES;BA;BARCELONA;827,75;993,3;883;3;-1;6334;331,1;473;237;50;1;68;DUVETICA;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+460;1;07/01/2011;11/01/2011;IT;AG;PORTO EMPEDOCLE;641,67;770;2855;4;-1;5423;770;1100;550;50;1;3;FAY;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+462;1;07/01/2011;11/01/2011;IT;AQ;L'AQUILA;98,58;118,3;2819;3;-1;11809;118,3;169;85;50;1;434;9.2;Autunno - Inverno 2011;Denim;Uomo;Carta di Credito;2;Jeans;Abbigliamento
+463;1;07/01/2011;13/01/2011;IT;AG;RAVANUSA;47,5;57;180;4;-1;8121;57;82;41;50;1;624;BURBERRY;Autunno - Inverno 2011;Blu scuro;Junior Boy;Contrassegno;18;Maglieria;Abbigliamento
+464;1;07/01/2011;14/01/2011;IT;BG;BONATE SOTTO;64,17;77;2830;4;-1;5654;77;110;55;50;1;5;BURBERRY;Autunno - Inverno 2011;Grigio;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+465;1;07/01/2011;13/01/2011;IT;TA;TARANTO;160,42;192,5;2707;3;-1;5720;192,5;275;138;50;1;5;BURBERRY;Autunno - Inverno 2011;Blu scuro;Uomo;PayPal;2;Maglieria;Abbigliamento
+466;1;07/01/2011;16/01/2011;HR;HR;ZAGREB;347,08;347,08;2714;4;-1;6319;347,08;595;298;50;1;67;DUVETICA;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+467;1;07/01/2011;14/01/2011;IT;CE;AVERSA;303,33;364;2925;3;-1;2959;364;520;260;50;1;8;FAY;Autunno - Inverno 2011;Nero;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+468;1;07/01/2011;12/01/2011;IT;NA;NAPOLI;303,33;364;1102;3;-1;9464;364;520;260;50;1;7;FAY;Autunno - Inverno 2011;Blu scuro;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+470;1;07/01/2011;20/01/2011;FR;;courchevel;347,08;416,5;2891;4;-1;6318;416,5;595;298;50;1;66;DUVETICA;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+473;1;07/01/2011;12/01/2011;IT;BA;MOLFETTA;415;498;2362;4;-1;9392;247,5;495;248;50;1;2;BURBERRY;Autunno - Inverno 2011;Panna;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+473;1;07/01/2011;12/01/2011;IT;BA;MOLFETTA;415;498;2362;4;-1;11615;170;170;85;50;1;3;RIVAMONTI;Autunno - Inverno 2011;Grigio scuro;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+473;1;07/01/2011;12/01/2011;IT;BA;MOLFETTA;415;498;2362;4;-1;7382;80,5;115;58;50;1;553;ROY ROGERS;Autunno - Inverno 2011;Grigio;Donna;Carta di Credito;3;Jeans;Abbigliamento
+474;1;07/01/2011;26/01/2011;IT;PZ;MELFI;262,5;315;2940;3;-1;7901;203;290;145;50;1;29;KANGRA;Autunno - Inverno 2011;Verde;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+474;1;07/01/2011;26/01/2011;IT;PZ;MELFI;262,5;315;2940;3;-1;10035;112;160;80;50;1;30;ROY ROGERS;Autunno - Inverno 2011;Denim;Uomo;Contrassegno;2;Jeans;Abbigliamento
+475;1;07/01/2011;12/01/2011;IT;RG;RAGUSA;104,17;125;2945;3;-1;10741;125;125;63;50;1;5;BURBERRY;Autunno - Inverno 2011;Celeste;Uomo;PayPal;2;Camicie;Abbigliamento
+476;1;07/01/2011;12/01/2011;IT;BR;FRANCAVILLA FONTANA;154,58;185,5;1206;3;-1;6009;185,5;265;133;50;1;99;SANTONI;Autunno - Inverno 2011;Marrone - Azzurro;Uomo;Contrassegno;10;Sneakers;Calzature
+477;1;07/01/2011;12/01/2011;IT;SV;ALASSIO;81,5;97,8;2909;4;-1;7214;51,8;74;37;50;1;617;FRED PERRY;Autunno - Inverno 2011;Grigio;Kids Boy;PayPal;16;Maglieria;Abbigliamento
+477;1;07/01/2011;12/01/2011;IT;SV;ALASSIO;81,5;97,8;2909;4;-1;11810;46;65;33;50;1;617;BURBERRY;Autunno - Inverno 2011;Blu scuro;Kids Boy;PayPal;16;Maglieria;Abbigliamento
+478;1;08/01/2011;14/01/2011;JP;Ai;Nagoya;347,08;347,08;1768;4;-1;6320;347,08;595;298;50;1;68;DUVETICA;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+479;1;08/01/2011;12/01/2011;IT;FC;CESENA;221,67;266;2962;3;-1;6323;266;380;190;50;1;68;DUVETICA;Autunno - Inverno 2011;Blu scuro;Donna;PayPal;3;Capispalla;Abbigliamento
+481;1;08/01/2011;12/01/2011;IT;PZ;FRANCAVILLA IN SINNI;154,58;185,5;2210;3;-1;6004;185,5;265;133;50;1;107;SANTONI;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;10;Sneakers;Calzature
+482;1;08/01/2011;12/01/2011;GB;En;London;247,5;297;2831;4;-1;11754;297;424;212;50;1;617;FAY;Autunno - Inverno 2011;Blu scuro;Kids Boy;PayPal;16;Capispalla;Abbigliamento
+484;1;08/01/2011;14/01/2011;IT;GE;GENOVA;47,5;57;1996;3;-1;5607;77;110;55;50;1;7;SUN 68;Autunno - Inverno 2011;Grigio - Viola;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+486;1;09/01/2011;12/01/2011;IT;CR;CREMONA;227,5;273;2991;4;-1;6336;273;390;195;50;1;67;DUVETICA;Autunno - Inverno 2011;Grigio scuro;Donna;PayPal;3;Capispalla;Abbigliamento
+488;1;09/01/2011;14/01/2011;FI;;Helsinki;194,17;233;2995;3;-1;5511;233;333;167;50;1;31;DUVETICA;Autunno - Inverno 2011;Blu medio;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+489;1;09/01/2011;11/01/2011;IT;SP;SARZANA;96,25;115,5;2998;3;-1;7993;115,5;165;83;50;1;434;THINPLE;Autunno - Inverno 2011;Grigio medio;Uomo;Carta di Credito;2;Pantaloni;Abbigliamento
+490;1;09/01/2011;12/01/2011;IT;CH;CASALBORDINO;154;184,8;3001;4;-1;10005;74,9;107;54;50;1;6;FRED PERRY;Autunno - Inverno 2011;Bianco;Uomo;Contrassegno;2;Camicie;Abbigliamento
+490;1;09/01/2011;12/01/2011;IT;CH;CASALBORDINO;154;184,8;3001;4;-1;8830;109,9;157;79;50;1;6;FRED PERRY;Autunno - Inverno 2011;Grigio scuro;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+492;1;10/01/2011;12/01/2011;IT;FG;FOGGIA;160,42;192,5;2924;3;-1;5726;192,5;275;138;50;1;5;BURBERRY;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+493;1;10/01/2011;16/01/2011;IT;AG;RAVANUSA;73,33;88;2948;3;-1;7560;88;125;63;50;1;7;BURBERRY;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+495;1;10/01/2011;12/01/2011;IT;TA;TARANTO;250,83;301;3022;4;-1;3315;157,5;225;113;50;1;4;ETRO;Autunno - Inverno 2011;Multicolor;Uomo;PayPal;2;Maglieria;Abbigliamento
+495;1;10/01/2011;12/01/2011;IT;TA;TARANTO;250,83;301;3022;4;-1;4245;143,5;205;103;50;1;4;ETRO;Autunno - Inverno 2011;Viola Scuro;Uomo;PayPal;2;Maglieria;Abbigliamento
+496;1;10/01/2011;12/01/2011;IT;LT;LATINA;103,83;124,6;2466;3;-1;6701;124,6;178;89;50;1;438;2 MEN;Autunno - Inverno 2011;Denim scuro;Uomo;Contrassegno;2;Jeans;Abbigliamento
+499;1;10/01/2011;18/01/2011;CZ;ok;Velka Dobra;282,92;339,5;2838;4;-1;6467;147;210;105;50;1;32;JECKERSON;Autunno - Inverno 2011;Denim;Uomo;Bonifico Bancario;2;Jeans;Abbigliamento
+499;1;10/01/2011;18/01/2011;CZ;ok;Velka Dobra;282,92;339,5;2838;4;-1;5711;192,5;275;138;50;1;8;BURBERRY;Autunno - Inverno 2011;Grigio scuro;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+500;1;10/01/2011;14/01/2011;IT;CS;ROSSANO;65,92;79,1;3020;3;-1;8806;79,1;113;57;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Grigio;Uomo;Contrassegno;2;Camicie;Abbigliamento
+501;1;11/01/2011;14/01/2011;IT;MI;MILANO;91;109,2;3013;3;-1;11053;109,2;156;78;50;1;434;9.2;Autunno - Inverno 2011;Grigio - Verde;Uomo;Carta di Credito;2;Pantaloni;Abbigliamento
+502;1;11/01/2011;14/01/2011;IT;MI;MONZA;64,17;77;3038;4;-1;3960;77;110;55;50;1;3;SUN 68;Autunno - Inverno 2011;Grigio;Donna;PayPal;3;Maglieria;Abbigliamento
+505;1;11/01/2011;14/01/2011;IT;VV;VIBO VALENTIA;157,5;189;3029;3;-1;10647;189;270;135;50;1;103;SANTONI;Autunno - Inverno 2011;Blu;Uomo;Contrassegno;10;Stringate;Calzature
+510;1;12/01/2011;18/01/2011;IT;Mi;Milano;137,5;165;3067;3;-1;8369;165;180;90;50;0;30;ETRO;Autunno - Inverno 2011;Etro cashmere-Camel;Uomo;Carta di Credito;2;Portafogli;Accessori
+511;1;12/01/2011;18/01/2011;IT;BA;BARI;62,42;74,9;3061;3;-1;10006;74,9;107;54;50;1;3;FRED PERRY;Autunno - Inverno 2011;Blu scuro;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+512;1;12/01/2011;18/01/2011;IT;MI;MILANO;245;294;3063;4;-1;8918;294;420;210;50;1;3;ASPESI;Autunno - Inverno 2011;Blu notte;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+513;1;12/01/2011;16/01/2011;IT;KR;ROCCABERNARDA;120;144;2244;3;-1;4247;144;205;103;50;1;6;ETRO;Autunno - Inverno 2011;Viola Scuro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+514;1;12/01/2011;14/01/2011;IT;TA;MANDURIA;89,25;107,1;955;3;-1;4154;107,1;153;77;50;1;67;ROY ROGERS;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Pantaloni;Abbigliamento
+517;1;12/01/2011;16/01/2011;IT;BA;ALTAMURA;40,83;49;2968;4;-1;10775;49;70;35;50;1;4;SUN 68;Autunno - Inverno 2011;Grigio;Donna;Contrassegno;3;Capispalla;Abbigliamento
+520;1;13/01/2011;20/01/2011;IT;VV;VIBO VALENTIA;383,83;460,6;3086;3;-1;5996;185,5;265;133;50;1;107;SANTONI;Autunno - Inverno 2011;Avio;Uomo;Contrassegno;10;Sneakers;Calzature
+520;1;13/01/2011;20/01/2011;IT;VV;VIBO VALENTIA;383,83;460,6;3086;3;-1;5147;159,6;228;114;50;1;30;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+520;1;13/01/2011;20/01/2011;IT;VV;VIBO VALENTIA;383,83;460,6;3086;3;-1;9251;115,5;165;83;50;1;620;SANTONI;Autunno - Inverno 2011;Grigio;Kids Boy;Contrassegno;16;Sneakers;Calzature
+521;1;13/01/2011;18/01/2011;IT;FE;FERRARA;460,83;553;3087;3;-1;7029;553;790;395;50;1;5;FAY;Autunno - Inverno 2011;Blu medio;Uomo;PayPal;2;Capispalla;Abbigliamento
+523;1;13/01/2011;18/01/2011;IT;MO;CASTELVETRO DI MODENA;95,83;115;3096;4;-1;10949;115;115;115;0;0;30;PUCCI;Autunno - Inverno 2011;Fucsia;Donna;Contrassegno;3;Sciarpe e Foulard;Accessori
+524;1;13/01/2011;20/01/2011;US;Ha;Honolulu;145,83;145,83;3081;3;-1;5494;145,83;250;125;50;1;4;ASPESI;Autunno - Inverno 2011;Nero;Uomo;PayPal;2;Capispalla;Abbigliamento
+525;1;14/01/2011;18/01/2011;IT;BA;BARI;62,42;74,9;3061;3;-1;10002;74,9;107;54;50;1;3;FRED PERRY;Autunno - Inverno 2011;Bianco;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+527;1;14/01/2011;20/01/2011;AE;Du;Dubai ;1278,76;1278,76;2091;4;-1;11658;791,67;950;950;0;0;30;BURBERRY;Autunno - Inverno 2011;Nero;Donna;PayPal;45;Shopper;Borse
+527;1;14/01/2011;20/01/2011;AE;Du;Dubai ;1278,76;1278,76;2091;4;-1;11913;140;168;168;0;0;30;ETRO;Autunno - Inverno 2011;Marrone rossiccio;Donna;PayPal;45;Shopper;Borse
+527;1;14/01/2011;20/01/2011;AE;Du;Dubai ;1278,76;1278,76;2091;4;-1;11207;61,67;74;74;0;0;30;ETRO;Autunno - Inverno 2011;Blu;Donna;PayPal;3;Portafogli;Accessori
+527;1;14/01/2011;20/01/2011;AE;Du;Dubai ;1278,76;1278,76;2091;4;-1;11920;125;150;75;50;1;30;ETRO;Autunno - Inverno 2011;Blu;Donna;PayPal;45;Tracolla;Borse
+527;1;14/01/2011;20/01/2011;AE;Du;Dubai ;1278,76;1278,76;2091;4;-1;10772;26,25;45;23;50;1;4;FIX DESIGN;Autunno - Inverno 2011;Grigio;Donna;PayPal;3;Maglieria;Abbigliamento
+527;1;14/01/2011;20/01/2011;AE;Du;Dubai ;1278,76;1278,76;2091;4;-1;11991;134,17;230;115;50;1;66;ETRO;Autunno - Inverno 2011;Grigio - Viola;Donna;PayPal;3;Maglieria;Abbigliamento
+528;1;14/01/2011;26/01/2011;IT;SS;OLBIA;463,75;556,5;3112;4;-1;3940;556,5;795;398;50;1;67;BURBERRY;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+531;1;14/01/2011;24/01/2011;IT;MI;SEGRATE;65;78;3106;3;-1;8437;78;155;78;50;0;254;ETRO;Autunno - Inverno 2011;Marrone;Uomo;PayPal;24;Cinture;Accessori
+534;1;15/01/2011;21/01/2011;IT;AG;LAMPEDUSA E LINOSA;48,42;58,1;659;4;-1;7173;58,1;83;42;50;1;619;FRED PERRY;Autunno - Inverno 2011;Blu scuro;Kids Boy;Contrassegno;16;Maglieria;Abbigliamento
+535;1;15/01/2011;20/01/2011;IT;BA;BARI;38,33;46;466;4;-1;8091;46;65;33;50;1;616;BURBERRY;Autunno - Inverno 2011;Blu scuro;Kids Boy;PayPal;16;Maglieria;Abbigliamento
+536;1;15/01/2011;20/01/2011;IT;VI;Noventa Vicentina;38,5;46,2;3137;3;-1;3517;46,2;66;33;50;1;6;AERONAUTICA MILITARE;Autunno - Inverno 2011;Bianco;Uomo;PayPal;2;Maglieria;Abbigliamento
+539;1;15/01/2011;20/01/2011;IT;NO;BORGOMANERO;245;294;1855;4;-1;8911;294;420;210;50;1;4;ASPESI;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+540;1;16/01/2011;20/01/2011;IT;ge;genova;246,75;296,1;3150;3;-1;8670;296,1;423;212;50;1;3;ASPESI;Autunno - Inverno 2011;Blu notte;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+541;1;16/01/2011;20/01/2011;IT;LI;LIVORNO;147;176,4;1799;3;-1;5149;176,4;252;126;50;1;28;AERONAUTICA MILITARE;Autunno - Inverno 2011;Grigio scuro;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+542;1;16/01/2011;20/01/2011;IT;VE;SPINEA;57,5;69;3159;3;-1;2767;69;138;69;50;1;5;AERONAUTICA MILITARE;Autunno - Inverno 2011;Nero;Donna;Bonifico Bancario;3;Maglieria;Abbigliamento
+544;1;16/01/2011;20/01/2011;IT;RM;CIVITAVECCHIA;131,25;157,5;3161;4;-1;6686;157,5;225;113;50;1;28;2 MEN;Autunno - Inverno 2011;Denim scuro;Uomo;Carta di Credito;2;Jeans;Abbigliamento
+546;1;17/01/2011;20/01/2011;IT;SA;NOCERA INFERIORE;216,67;260;3171;3;-1;2704;260;260;130;50;1;102;TOD'S;Autunno - Inverno 2011;Blu notte;Uomo;Contrassegno;10;Polacco;Calzature
+548;1;17/01/2011;20/01/2011;IT;MI;ARCORE;247,92;297,5;3012;4;-1;8903;297,5;425;213;50;1;4;ASPESI;Autunno - Inverno 2011;Grigio medio;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+549;1;17/01/2011;20/01/2011;IT;BO;SAN PIETRO IN CASALE;115,5;138,6;2872;4;-1;6729;138,6;198;99;50;1;67;TWO WOMEN IN THE WORLD;Autunno - Inverno 2011;Denim scuro;Donna;PayPal;3;Jeans;Abbigliamento
+550;1;17/01/2011;26/01/2011;IT;KR;ROCCABERNARDA;41,67;50;2244;3;-1;12047;50;80;56;30;0;259;ANDERSONS;Autunno - Inverno 2011;Viola Scuro;Uomo;Contrassegno;24;Cinture;Accessori
+551;1;17/01/2011;21/01/2011;IT;BG;OSIO SOTTO;177,92;213,5;3175;3;-1;7562;136,5;195;98;50;1;3;BURBERRY;Autunno - Inverno 2011;Grigio;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+551;1;17/01/2011;21/01/2011;IT;BG;OSIO SOTTO;177,92;213,5;3175;3;-1;5660;77;110;55;50;1;3;BURBERRY;Autunno - Inverno 2011;Blu scuro;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+553;1;18/01/2011;20/01/2011;IT;PA;PARTINICO;233,33;280;2583;4;-1;11762;280;400;200;50;1;2;CUCINELLI;Autunno - Inverno 2011;Grigio scuro;Donna;Contrassegno;3;Maglieria;Abbigliamento
+554;1;18/01/2011;21/01/2011;IT;TA;GINOSA;490;588;523;4;-1;10773;31,5;45;23;50;1;5;FIX DESIGN;Autunno - Inverno 2011;Grigio;Donna;PayPal;3;Maglieria;Abbigliamento
+554;1;18/01/2011;21/01/2011;IT;TA;GINOSA;490;588;523;4;-1;10771;31,5;45;23;50;1;3;FIX DESIGN;Autunno - Inverno 2011;Grigio;Donna;PayPal;3;Maglieria;Abbigliamento
+554;1;18/01/2011;21/01/2011;IT;TA;GINOSA;490;588;523;4;-1;6274;525;750;375;50;1;6;FAY;Autunno - Inverno 2011;Nero;Donna;PayPal;3;Capispalla;Abbigliamento
+555;1;18/01/2011;21/01/2011;IT;CT;Paterno;122,5;147;2720;3;-1;6458;147;210;105;50;1;529;JECKERSON;Autunno - Inverno 2011;Denim;Uomo;Carta di Credito;2;Jeans;Abbigliamento
+556;1;18/01/2011;20/01/2011;IT;FG;SAN GIOVANNI ROTONDO;1537,08;1844,5;648;3;-1;9467;553;790;395;50;1;4;FAY;Autunno - Inverno 2011;Grigio;Uomo;PayPal;2;Capispalla;Abbigliamento
+556;1;18/01/2011;20/01/2011;IT;FG;SAN GIOVANNI ROTONDO;1537,08;1844,5;648;3;-1;10420;595;850;425;50;1;6;BURBERRY;Autunno - Inverno 2011;Grigio scuro;Donna;PayPal;3;Capispalla;Abbigliamento
+556;1;18/01/2011;20/01/2011;IT;FG;SAN GIOVANNI ROTONDO;1537,08;1844,5;648;3;-1;5767;696,5;995;498;50;1;3;BURBERRY;Autunno - Inverno 2011;Grigio medio;Uomo;PayPal;2;Capispalla;Abbigliamento
+557;1;18/01/2011;28/01/2011;IT;RM;ROMA;58,33;70;3070;3;-1;4811;70;100;50;50;1;5;SUN 68;Autunno - Inverno 2011;Grigio scuro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+558;1;19/01/2011;21/01/2011;IT;TO;PECETTO TORINESE;300,83;361;695;3;-1;11940;172;245;123;50;1;67;ETRO;Autunno - Inverno 2011;Multicolor;Donna;PayPal;3;Maglieria;Abbigliamento
+558;1;19/01/2011;21/01/2011;IT;TO;PECETTO TORINESE;300,83;361;695;3;-1;11984;189;270;135;50;1;68;ETRO;Autunno - Inverno 2011;Grigio - Viola;Donna;PayPal;3;Maglieria;Abbigliamento
+560;1;19/01/2011;20/01/2011;IT;SA;CAGGIANO;119,58;143,5;23213;3;-1;9644;143,5;205;103;50;1;29;SIVIGLIA WHITE;Autunno - Inverno 2011;Denim;Uomo;Contrassegno;2;Jeans;Abbigliamento
+561;1;19/01/2011;28/01/2011;CZ;ok;Velka Dobra;619,17;743;2838;4;-1;9541;550;550;275;50;1;8;FAY;Autunno - Inverno 2011;Nero;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+561;1;19/01/2011;28/01/2011;CZ;ok;Velka Dobra;619,17;743;2838;4;-1;5698;193;275;138;50;1;7;BURBERRY;Autunno - Inverno 2011;Grigio chiaro;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+562;1;20/01/2011;24/01/2011;IT;PR;FIDENZA;147;176,4;3214;3;-1;5158;176,4;252;126;50;1;32;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+564;1;20/01/2011;24/01/2011;IT;AN;OSIMO;37,92;45,5;3217;4;-1;11288;45,5;65;33;50;1;4;SUN 68;Autunno - Inverno 2011;Viola Scuro;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+566;1;20/01/2011;28/01/2011;FR;66;MONTESQUIEU DES ALBERES;252,58;303,1;3227;3;-1;6316;303,1;433;217;50;1;67;DUVETICA;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+567;1;21/01/2011;24/01/2011;IT;Ba;Bari;350;420;3228;4;-1;4313;420;600;300;50;1;30;CUCINELLI;Autunno - Inverno 2011;Prugna;Uomo;PayPal;2;Maglieria;Abbigliamento
+568;1;21/01/2011;24/01/2011;GB;Lo;London. CR7 7AZ;1153,33;1384;3230;3;-1;2148;126;180;90;50;1;438;ETRO;Autunno - Inverno 2011;Multicolor;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+568;1;21/01/2011;24/01/2011;GB;Lo;London. CR7 7AZ;1153,33;1384;3230;3;-1;1749;126;180;90;50;1;438;ETRO;Autunno - Inverno 2011;Spago;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+568;1;21/01/2011;24/01/2011;GB;Lo;London. CR7 7AZ;1153,33;1384;3230;3;-1;12110;182;315;158;50;1;29;ETRO;Autunno - Inverno 2011;Blu - Marrone;Uomo;Carta di Credito;2;Pantaloni;Abbigliamento
+568;1;21/01/2011;24/01/2011;GB;Lo;London. CR7 7AZ;1153,33;1384;3230;3;-1;11301;950;950;950;0;0;30;JOHN GALLIANO;Primavera - Estate 2011;Oro;Uomo;Carta di Credito;24;Orologi;Gioielli Moda
+569;1;21/01/2011;24/01/2011;IT;RM;ROMA;116,08;139,3;3231;3;-1;5575;139,3;199;100;50;1;7;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+570;1;21/01/2011;26/01/2011;IT;CS;ROSSANO;135,83;163;499;4;-1;12087;50;71;36;50;1;609;BURBERRY;Autunno - Inverno 2011;Panna;Baby Girl;PayPal;17;Capispalla;Abbigliamento
+570;1;21/01/2011;26/01/2011;IT;CS;ROSSANO;135,83;163;499;4;-1;12076;113;162;81;50;1;609;BURBERRY;Autunno - Inverno 2011;Bianco - Nero;Baby Girl;PayPal;17;Abiti;Abbigliamento
+571;1;21/01/2011;26/01/2011;IT;MC;MACERATA;230,42;276,5;3240;3;-1;11674;276,5;395;198;50;1;31;KANGRA;Autunno - Inverno 2011;Blu;Uomo;PayPal;2;Maglieria;Abbigliamento
+573;1;22/01/2011;27/01/2011;IT;SI;ABBADIA SAN SALVATORE;187,25;224,7;3254;4;-1;4189;117,6;168;84;50;1;68;ROY ROGERS;Autunno - Inverno 2011;Denim blu;Donna;Contrassegno;3;Jeans;Abbigliamento
+573;1;22/01/2011;27/01/2011;IT;SI;ABBADIA SAN SALVATORE;187,25;224,7;3254;4;-1;4174;107,1;153;77;50;1;68;ROY ROGERS;Autunno - Inverno 2011;Denim scuro;Donna;Contrassegno;3;Jeans;Abbigliamento
+574;1;22/01/2011;26/01/2011;IT;TO;IVREA;64,17;77;3257;3;-1;4853;77;110;55;50;1;5;SUN 68;Autunno - Inverno 2011;Grigio chiaro;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+576;1;23/01/2011;26/01/2011;IT;CE;CASAPESENNA;64,17;77;3269;3;-1;5257;77;110;55;50;1;4;SUN 68;Autunno - Inverno 2011;Grigio scuro;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+577;1;23/01/2011;26/01/2011;IT;CE;SANTA MARIA CAPUA VETERE;102,08;122,5;1906;4;-1;4744;122,5;245;123;50;1;67;HR 009;Autunno - Inverno 2011;Fucsia;Donna;Contrassegno;3;Maglieria;Abbigliamento
+578;1;23/01/2011;26/01/2011;IT;RM;CIVITAVECCHIA;102,5;123;3161;4;-1;8527;123;175;88;50;1;28;JECKERSON;Autunno - Inverno 2011;Grigio scuro;Uomo;Carta di Credito;2;Pantaloni;Abbigliamento
+580;1;24/01/2011;28/01/2011;FR;;Saint-Saulve;420;504;3286;3;-1;5581;504;720;360;50;1;29;AERONAUTICA MILITARE;Autunno - Inverno 2011;Marrone;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+581;1;24/01/2011;27/01/2011;IT;PZ;MELFI;64,17;77;3287;3;-1;5656;77;110;55;50;1;3;BURBERRY;Autunno - Inverno 2011;Bianco;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+582;1;24/01/2011;27/01/2011;IT;Ve;Albaredo D'Adige;113,75;136,5;3288;3;-1;6448;136,5;195;98;50;1;434;JECKERSON;Autunno - Inverno 2011;Denim;Uomo;Carta di Credito;2;Jeans;Abbigliamento
+583;1;24/01/2011;27/01/2011;RU;Ty;Tyumen;344,17;344,17;3243;3;-1;7964;113,75;195;98;50;1;438;BARBA;Autunno - Inverno 2011;Denim scuro;Uomo;Carta di Credito;2;Jeans;Abbigliamento
+583;1;24/01/2011;27/01/2011;RU;Ty;Tyumen;344,17;344,17;3243;3;-1;11673;230,42;395;198;50;1;30;KANGRA;Autunno - Inverno 2011;Blu;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+584;1;25/01/2011;27/01/2011;IT;CR;GRONTARDO;194,17;233;3290;3;-1;11804;233;333;167;50;1;29;DUVETICA;Autunno - Inverno 2011;Mastice;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+585;1;25/01/2011;27/01/2011;ES;BA;BARCELONA;516,67;550;883;3;-1;6315;303;433;217;50;1;66;DUVETICA;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+585;1;25/01/2011;27/01/2011;ES;BA;BARCELONA;516,67;550;883;3;-1;7433;303;433;217;50;1;68;DUVETICA;Autunno - Inverno 2011;Corda;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+586;1;25/01/2011;03/02/2011;IT;FG;CANDELA;120,83;145;3298;4;-1;6384;145;145;73;50;1;623;HOGAN;Autunno - Inverno 2011;Grigio medio;Junior Boy;Bonifico Bancario;18;Sneakers;Calzature
+588;1;26/01/2011;01/02/2011;DE;Mu;Riemerling;115,17;138,2;2839;3;-1;2866;158,2;226;113;50;1;6;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+589;1;26/01/2011;31/01/2011;IT;MI;MILANO;194,17;233;788;3;-1;11807;233;333;167;50;1;28;DUVETICA;Autunno - Inverno 2011;Grigio medio;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+591;1;27/01/2011;01/02/2011;IT;LE;RACALE;1313,33;1576;3330;4;-1;11618;368;525;263;50;1;3;RIVAMONTI;Autunno - Inverno 2011;Grigio scuro;Donna;Carta di Credito;3;Abiti;Abbigliamento
+591;1;27/01/2011;01/02/2011;IT;LE;RACALE;1313,33;1576;3330;4;-1;11956;410;585;293;50;1;66;ETRO;Autunno - Inverno 2011;Grigio - Blu;Donna;Carta di Credito;3;Abiti;Abbigliamento
+591;1;27/01/2011;01/02/2011;IT;LE;RACALE;1313,33;1576;3330;4;-1;11935;238;340;170;50;1;67;ETRO;Autunno - Inverno 2011;Nero - Grigio;Donna;Carta di Credito;3;Maglieria;Abbigliamento
+591;1;27/01/2011;01/02/2011;IT;LE;RACALE;1313,33;1576;3330;4;-1;8214;560;800;400;50;1;67;ETRO;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Abiti;Abbigliamento
+592;1;27/01/2011;01/02/2011;IT;PT;AGLIANA;188,42;226,1;3295;3;-1;7811;114,1;163;82;50;1;28;JAGGY;Autunno - Inverno 2011;Blu medio;Uomo;PayPal;2;Pantaloni;Abbigliamento
+592;1;27/01/2011;01/02/2011;IT;PT;AGLIANA;188,42;226,1;3295;3;-1;11813;112;160;80;50;1;28;CAVALLERIA TOSCANA;Autunno - Inverno 2011;Verde;Uomo;PayPal;2;Pantaloni;Abbigliamento
+593;1;27/01/2011;03/02/2011;IT;AG;RAFFADALI;145,83;175;1766;3;-1;5495;175;250;125;50;1;5;ASPESI;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+595;1;28/01/2011;31/01/2011;IT;RM;ROMA;208,33;250;1339;3;-1;10230;250;250;125;50;1;108;HOGAN;Primavera - Estate 2011;Beige;Uomo;Contrassegno;10;Sneakers;Calzature
+596;1;28/01/2011;01/02/2011;IT;TA;TARANTO;87,5;105;3349;3;-1;7706;105;150;75;50;1;107;DIADORA;Autunno - Inverno 2011;Grigio - Nero;Uomo;Carta di Credito;10;Sneakers;Calzature
+597;1;28/01/2011;02/02/2011;GB;No;Northampton. NN2 7PU;1272,5;1527;3356;3;-1;11308;1380;1380;1380;0;0;30;JOHN GALLIANO;Primavera - Estate 2011;Nero;Uomo;Carta di Credito;24;Orologi;Gioielli Moda
+597;1;28/01/2011;02/02/2011;GB;No;Northampton. NN2 7PU;1272,5;1527;3356;3;-1;10934;147;210;105;50;1;29;BURBERRY;Autunno - Inverno 2011;Beige;Uomo;Carta di Credito;2;Pantaloni;Abbigliamento
+598;1;28/01/2011;03/02/2011;IT;CT;MAZZARRONE;73,33;88;3359;3;-1;7561;88;125;63;50;1;8;BURBERRY;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+599;1;29/01/2011;03/02/2011;IT;TN;TRENTO;122,5;147;2610;3;-1;10935;147;210;105;50;1;30;BURBERRY;Autunno - Inverno 2011;Beige;Uomo;Contrassegno;2;Pantaloni;Abbigliamento
+600;1;29/01/2011;08/02/2011;CH;Al; ;233,33;233,33;3365;3;-1;5525;233,33;400;200;50;1;32;DUVETICA;Autunno - Inverno 2011;Blu medio;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+602;1;29/01/2011;01/02/2011;IT;AQ;AVEZZANO;133;159,6;3368;3;-1;5148;159,6;228;114;50;1;31;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+605;1;31/01/2011;01/02/2011;IT;CB;TERMOLI;208,33;250;3284;3;-1;10364;250;250;125;50;1;103;HOGAN;Primavera - Estate 2011;Blu;Uomo;Contrassegno;10;Sneakers;Calzature
+606;1;31/01/2011;07/02/2011;IT;PA;BORGETTO;147;176,4;3396;3;-1;5157;176,4;252;126;50;1;31;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu notte;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+607;1;31/01/2011;01/02/2011;IT;RM;ROMA;208,33;250;2590;3;-1;6441;250;250;125;50;1;107;BURBERRY;Autunno - Inverno 2011;Marrone;Uomo;Contrassegno;10;Stivali;Calzature
+608;1;31/01/2011;01/02/2011;IT;AV;ATRIPALDA;85;102;3185;4;-1;12085;102;145;73;50;1;614;BURBERRY;Autunno - Inverno 2011;Classic Check;Kids Girl;Contrassegno;16;Abiti;Abbigliamento
+609;1;31/01/2011;03/02/2011;IT;FC;LONGIANO;173,83;208,6;3399;3;-1;6417;208,6;298;149;50;1;67;ROY ROGERS;Autunno - Inverno 2011;Blu;Donna;PayPal;3;Maglieria;Abbigliamento
+610;1;31/01/2011;03/02/2011;ES;Ba;Barcelona;732,5;850;883;3;-1;6337;273;390;195;50;1;68;DUVETICA;Autunno - Inverno 2011;Grigio scuro;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+610;1;31/01/2011;03/02/2011;ES;Ba;Barcelona;732,5;850;883;3;-1;7432;303;433;217;50;1;67;DUVETICA;Autunno - Inverno 2011;Corda;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+610;1;31/01/2011;03/02/2011;ES;Ba;Barcelona;732,5;850;883;3;-1;6317;303;433;217;50;1;68;DUVETICA;Autunno - Inverno 2011;Nero;Donna;Carta di Credito;3;Capispalla;Abbigliamento
+612;1;31/01/2011;14/02/2011;AD;An;Antic Cami Ral n∂ß3 casa Aixas ;57,75;57,75;3370;3;-1;8804;57,75;99;50;50;1;6;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+613;1;01/02/2011;10/02/2011;IT;TN;CANAL SAN BOVO;72,33;86,8;3415;4;-1;5160;86,8;124;62;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Bianco;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+616;1;01/02/2011;04/02/2011;IT;BN;CERRETO SANNITA;200;240;3414;3;-1;3541;240;240;120;50;1;104;HOGAN REBEL;Autunno - Inverno 2011;Beige -Verde -Blu;Uomo;Contrassegno;10;Sneakers;Calzature
+618;1;01/02/2011;03/02/2011;IT;BR;FRANCAVILLA FONTANA;102,5;123;1206;3;-1;8517;123;175;88;50;1;529;JECKERSON;Autunno - Inverno 2011;Ghiaccio;Uomo;Contrassegno;2;Pantaloni;Abbigliamento
+619;1;01/02/2011;03/02/2011;IT;FG;VIESTE;200;240;3433;3;-1;3545;240;240;120;50;1;108;HOGAN REBEL;Autunno - Inverno 2011;Beige -Verde -Blu;Uomo;PayPal;10;Sneakers;Calzature
+620;1;02/02/2011;07/02/2011;IT;SO;SONDRIO;186,67;224;3441;3;-1;6049;224;320;160;50;1;103;SANTONI;Autunno - Inverno 2011;Blu medio;Uomo;Contrassegno;10;Stivali;Calzature
+621;1;02/02/2011;04/02/2011;IT;BA;ACQUAVIVA DELLE FONTI;200;240;3422;3;-1;2724;240;240;120;50;1;101;HOGAN;Autunno - Inverno 2011;Grigio;Uomo;Contrassegno;10;Sneakers;Calzature
+624;1;03/02/2011;07/02/2011;IT;SA;PAGANI;166,25;199,5;3413;3;-1;6198;199,5;285;143;50;1;32;HETREGO';Autunno - Inverno 2011;Blu medio;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+625;1;03/02/2011;07/02/2011;IT;to;torino;102,5;123;3457;3;-1;8518;123;175;88;50;1;28;JECKERSON;Autunno - Inverno 2011;Ghiaccio;Uomo;Carta di Credito;2;Pantaloni;Abbigliamento
+635;1;04/02/2011;07/02/2011;IT;CZ;CATANZARO;344,17;413;3410;4;-1;6253;413;590;295;50;1;67;HOGAN;Autunno - Inverno 2011;Verde acido;Donna;Contrassegno;3;Capispalla;Abbigliamento
+636;1;04/02/2011;07/02/2011;IT;KR;ROCCABERNARDA;460,83;553;2244;3;-1;9474;553;790;395;50;1;6;FAY;Autunno - Inverno 2011;Azzurro;Uomo;PayPal;2;Capispalla;Abbigliamento
+638;1;04/02/2011;07/02/2011;IT;VT;ORTE;150,25;180,3;3479;3;-1;5961;182;260;130;50;1;31;ETRO;Autunno - Inverno 2011;Grigio;Uomo;PayPal;2;Pantaloni;Abbigliamento
+644;1;05/02/2011;10/02/2011;IT;ag;agrigento;87,5;105;3492;3;-1;7704;105;150;75;50;1;105;DIADORA;Autunno - Inverno 2011;Grigio - Nero;Uomo;Contrassegno;10;Sneakers;Calzature
+645;1;05/02/2011;09/02/2011;IT;TE;TERAMO;112;134,4;3173;3;-1;5858;134,4;192;96;50;1;440;SIVIGLIA WHITE;Autunno - Inverno 2011;Blu scuro;Uomo;Carta di Credito;2;Pantaloni;Abbigliamento
+646;1;05/02/2011;09/02/2011;IT;MI;MILANO;159,17;191;3497;3;-1;10922;191;191;191;0;0;30;ACQUA DI PARMA;Autunno - Inverno 2011;No Color;Uomo;Carta di Credito;;Borsoni;Borse
+647;1;06/02/2011;08/02/2011;IT;BA;ACQUAVIVA DELLE FONTI;75,83;91;3422;3;-1;6652;91;130;65;50;1;6;FRED PERRY;Autunno - Inverno 2011;Grigio medio;Uomo;PayPal;2;Maglieria;Abbigliamento
+648;1;07/02/2011;09/02/2011;IT;CR;VESCOVATO;131,25;157,5;3510;3;-1;8822;157,5;225;113;50;1;5;CLUB DES SPORTS;Autunno - Inverno 2011;Nero - Grigio;Uomo;PayPal;2;Capispalla;Abbigliamento
+652;1;07/02/2011;09/02/2011;IT;FG;VIESTE;137,08;164,5;3433;3;-1;7577;164,5;235;118;50;1;438;BORRELLI;Autunno - Inverno 2011;Denim scuro;Uomo;PayPal;2;Jeans;Abbigliamento
+653;1;07/02/2011;09/02/2011;IT;BG;SERIATE;80,42;96,5;990;4;-1;8429;96,5;193;97;50;1;624;ASPESI;Autunno - Inverno 2011;Viola Scuro;Junior Girl;PayPal;18;Capispalla;Abbigliamento
+658;1;08/02/2011;10/02/2011;IT;SA;SALERNO;52,5;63;3532;4;-1;8228;63;90;45;50;1;3;FIX DESIGN;Autunno - Inverno 2011;Panna;Uomo;PayPal;2;Maglieria;Abbigliamento
+663;1;09/02/2011;14/02/2011;HK;Ko;Kowloon;230,83;230,83;1936;4;-1;5526;230,83;395;198;50;1;29;DUVETICA;Autunno - Inverno 2011;Nero;Uomo;Carta di Credito;2;Capispalla;Abbigliamento
+666;1;10/02/2011;15/02/2011;IT;SS;ALGHERO;109,08;130,9;3564;4;-1;9227;130,9;187;94;50;1;628;SANTONI;Autunno - Inverno 2011;Nero;Junior Boy;Contrassegno;18;Sneakers;Calzature
+668;1;10/02/2011;14/02/2011;IT;FG;VIESTE;547,75;657,3;3433;3;-1;10040;385;550;275;50;1;29;MALO;Autunno - Inverno 2011;Grigio melange;Uomo;PayPal;2;Maglieria;Abbigliamento
+668;1;10/02/2011;14/02/2011;IT;FG;VIESTE;547,75;657,3;3433;3;-1;5971;140;200;200;0;0;5;CUCINELLI;Autunno - Inverno 2011;Blu scuro;Uomo;PayPal;42;Cappelli;Accessori
+668;1;10/02/2011;14/02/2011;IT;FG;VIESTE;547,75;657,3;3433;3;-1;7596;132,3;189;95;50;1;438;CARLO CHIONNA;Autunno - Inverno 2011;Denim;Uomo;PayPal;2;Jeans;Abbigliamento
+669;1;10/02/2011;18/02/2011;BE;An;Mol;262,5;315;3567;4;-1;11782;315;450;225;50;1;556;GUNEX;Autunno - Inverno 2011;Grigio chiaro;Donna;Bonifico Bancario;3;Pantaloni;Abbigliamento
+670;1;10/02/2011;14/02/2011;IT;BN;CERRETO SANNITA;87,5;105;3414;3;-1;7713;105;150;75;50;1;105;DIADORA;Autunno - Inverno 2011;Viola Scuro;Uomo;Contrassegno;10;Sneakers;Calzature
+672;1;10/02/2011;14/02/2011;CH;Zu;Uitikon;186,67;186,67;3517;4;-1;11733;186,67;320;160;50;1;65;GUNEX;Autunno - Inverno 2011;Grigio scuro;Donna;PayPal;3;Gonne;Abbigliamento
+673;1;10/02/2011;14/02/2011;IT;CS;ROSSANO;53,33;64;3020;3;-1;5174;64;92;46;50;1;3;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu medio;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+675;1;10/02/2011;17/02/2011;CH;_;Commugny;256,67;256,67;3579;4;-1;11616;99,17;170;85;50;1;4;RIVAMONTI;Autunno - Inverno 2011;Grigio scuro;Donna;Bonifico Bancario;3;Maglieria;Abbigliamento
+675;1;10/02/2011;17/02/2011;CH;_;Commugny;256,67;256,67;3579;4;-1;10944;157,5;189;189;0;0;30;FABIANA FILIPPI;Autunno - Inverno 2011;Beige-Grigio;Donna;Bonifico Bancario;3;Sciarpe e Foulard;Accessori
+676;1;10/02/2011;15/02/2011;IT;PC;PIACENZA;84;100,8;3578;3;-1;7838;100,8;144;72;50;1;4;JAGGY;Autunno - Inverno 2011;Grigio;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+679;1;14/02/2011;15/02/2011;IT;BA;BARLETTA;92,17;110,6;3277;3;-1;7254;110,6;158;79;50;1;30;ROY ROGERS;Autunno - Inverno 2011;Denim scuro;Uomo;PayPal;2;Jeans;Abbigliamento
+680;1;14/02/2011;18/02/2011;IT;BA;BARI;124,83;149,8;3061;3;-1;10003;74,9;107;54;50;1;4;FRED PERRY;Autunno - Inverno 2011;Bianco;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+680;1;14/02/2011;18/02/2011;IT;BA;BARI;124,83;149,8;3061;3;-1;10007;74,9;107;54;50;1;4;FRED PERRY;Autunno - Inverno 2011;Blu scuro;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+681;1;14/02/2011;16/02/2011;IT;NA;NAPOLI;505,25;606,3;3461;3;-1;6048;224;320;160;50;1;102;SANTONI;Autunno - Inverno 2011;Blu medio;Uomo;Contrassegno;10;Stivali;Calzature
+681;1;14/02/2011;16/02/2011;IT;NA;NAPOLI;505,25;606,3;3461;3;-1;2927;197,5;395;198;50;1;29;CUCINELLI;Autunno - Inverno 2011;Beige;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+681;1;14/02/2011;16/02/2011;IT;NA;NAPOLI;505,25;606,3;3461;3;-1;7834;100,8;144;72;50;1;4;JAGGY;Autunno - Inverno 2011;Blu notte;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+681;1;14/02/2011;16/02/2011;IT;NA;NAPOLI;505,25;606,3;3461;3;-1;5237;84;120;60;50;1;4;SUN 68;Autunno - Inverno 2011;Panna;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+682;1;14/02/2011;17/02/2011;IT;SR;AVOLA;64,17;77;3625;4;-1;5666;77;110;55;50;1;5;BURBERRY;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+684;1;14/02/2011;17/02/2011;IT;fr;frosinone;93,33;112;3632;3;-1;6678;112;160;80;50;1;28;2 MEN;Autunno - Inverno 2011;Denim chiaro;Uomo;Contrassegno;2;Jeans;Abbigliamento
+690;1;15/02/2011;07/03/2011;CZ;ok;Velka Dobra;520;624;2838;4;-1;6109;487;695;348;50;1;7;BURBERRY;Autunno - Inverno 2011;Blu medio;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+690;1;15/02/2011;07/03/2011;CZ;ok;Velka Dobra;520;624;2838;4;-1;4978;49;70;35;50;1;4;FIX DESIGN;Autunno - Inverno 2011;Grigio;Donna;Bonifico Bancario;3;Abiti;Abbigliamento
+690;1;15/02/2011;07/03/2011;CZ;ok;Velka Dobra;520;624;2838;4;-1;7560;88;125;63;50;1;7;BURBERRY;Autunno - Inverno 2011;Nero;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+691;1;16/02/2011;22/02/2011;US;Ca;Cupertino;87,5;87,5;3644;3;-1;7703;87,5;150;75;50;1;104;DIADORA;Autunno - Inverno 2011;Grigio - Nero;Uomo;Carta di Credito;10;Sneakers;Calzature
+692;1;16/02/2011;18/02/2011;IT;SS;ALGHERO;110,25;132,3;3564;4;-1;9239;132,3;189;95;50;1;628;SANTONI;Autunno - Inverno 2011;Avio;Junior Boy;PayPal;18;Sneakers;Calzature
+694;1;16/02/2011;17/02/2011;IT;VI;NOVENTA VICENTINA;57,5;69;3137;3;-1;8811;69;98;49;50;1;5;AERONAUTICA MILITARE;Autunno - Inverno 2011;Bianco;Uomo;PayPal;2;Camicie;Abbigliamento
+698;1;17/02/2011;22/02/2011;IT;CE;MACERATA CAMPANIA;46,67;56;3656;3;-1;10748;56;80;80;0;0;30;PAUL SMITH;Autunno - Inverno 2011;Multicolor;Uomo;Contrassegno;42;Cappelli;Accessori
+699;1;18/02/2011;28/02/2011;IT;FR;FROSINONE;93,33;112;2140;3;-1;6677;112;160;80;50;1;529;2 MEN;Autunno - Inverno 2011;Denim chiaro;Uomo;Contrassegno;2;Jeans;Abbigliamento
+700;1;18/02/2011;24/02/2011;IT;CA;QUARTU SANT'ELENA;200;240;3654;3;-1;10235;240;240;120;50;1;102;HOGAN;Primavera - Estate 2011;Grigio - Bianco;Uomo;PayPal;10;Sneakers;Calzature
+702;1;21/02/2011;22/02/2011;IT;RM;ROMA;216,67;260;3706;3;-1;2695;260;260;130;50;1;104;TOD'S;Autunno - Inverno 2011;Marrone;Uomo;PayPal;10;Polacco;Calzature
+703;1;21/02/2011;23/02/2011;IT;AS;SAN BENEDETTO DEL TRONTO;100,33;120,4;3713;3;-1;7844;120,4;172;86;50;1;6;FRED PERRY;Autunno - Inverno 2011;Blu scuro;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+705;1;22/02/2011;24/02/2011;IT;MT;STIGLIANO;47,25;56,7;3662;4;-1;11539;56,7;81;41;50;1;606;BURBERRY;Autunno - Inverno 2011;Grigio;Baby Boy;PayPal;17;Tutine;Abbigliamento
+706;1;23/02/2011;25/02/2011;IT;BS;URAGO MELLA;208,33;250;793;4;-1;13565;250;250;125;50;1;84;HOGAN;Primavera - Estate 2011;Grigio chiaro;Donna;Contrassegno;9;Sneakers;Calzature
+707;1;23/02/2011;24/02/2011;IT;CR;PERSICO DOSIMO;64,17;77;1297;3;-1;5666;77;110;55;50;1;5;BURBERRY;Autunno - Inverno 2011;Nero;Uomo;PayPal;2;Maglieria;Abbigliamento
+708;1;24/02/2011;02/03/2011;IT;TO;VALPERGA;21,67;26;3743;3;-1;5204;26;26;26;0;0;30;FRECCE TRICOLORI;Autunno - Inverno 2011;Bianco;Uomo;Bonifico Bancario;42;Cappelli;Accessori
+710;1;25/02/2011;01/03/2011;IT;TO;POIRINO;133,33;26,67;3761;4;-1;14676;133,33;160;80;50;1;623;HOGAN;Primavera - Estate 2011;Grigio-Argento;Junior Girl;PayPal;18;Sneakers;Calzature
+711;1;25/02/2011;03/03/2011;AE;Du;Dubai;264,17;264,17;2091;4;-1;15774;287,5;350;350;0;0;30;ETRO;Primavera - Estate 2011;Etro cashmere-Camel;Donna;PayPal;44;Shopper;Borse
+713;1;26/02/2011;01/03/2011;IT;AN;CASTELFIDARDO;108,33;130;3772;4;-1;14965;130;130;65;50;1;6;BURBERRY;Primavera - Estate 2011;Nero;Donna;PayPal;3;Maglieria;Abbigliamento
+714;1;26/02/2011;16/03/2011;IT;VV;VIBO VALENTIA;91,67;110;2003;4;-1;14686;110;110;55;50;1;615;HOGAN;Primavera - Estate 2011;Rosa;Kids Girl;Contrassegno;16;Sneakers;Calzature
+715;1;28/02/2011;02/03/2011;IT;PZ;RIONERO IN VULTURE;191,67;230;3785;3;-1;7632;230;230;115;50;1;105;HOGAN REBEL;Autunno - Inverno 2011;Grigio;Uomo;Contrassegno;10;Polacco;Calzature
+716;1;28/02/2011;02/03/2011;IT;BS;LONATO;165,83;199;3792;4;-1;15775;199;485;243;50;1;30;MAJARS;Autunno - Inverno 2011;Nero;Uomo;Contrassegno;2;Capispalla;Abbigliamento
+717;1;28/02/2011;03/03/2011;DE;Ba;Brunnthal;200;240;3797;3;-1;3668;240;240;120;50;1;108;HOGAN;Autunno - Inverno 2011;Nero;Uomo;PayPal;10;Sneakers;Calzature
+719;1;28/02/2011;02/03/2011;IT;CS;CASTROLIBERO;75;90;3536;3;-1;7726;90;150;75;50;1;109;DIADORA;Autunno - Inverno 2011;Bluette;Uomo;PayPal;10;Sneakers;Calzature
+720;1;01/03/2011;07/03/2011;IT;CA;SESTU;237,5;285;3805;3;-1;12462;285;285;143;50;1;100;SANTONI;Primavera - Estate 2011;Blu - Azzurro;Uomo;Contrassegno;10;Sneakers;Calzature
+721;1;01/03/2011;03/03/2011;IT;CT;CATANIA;112,5;135;3809;3;-1;12532;135;135;54;60;1;30;ETRO;Primavera - Estate 2011;Viola - Bianco;Uomo;Contrassegno;2;Camicie;Abbigliamento
+723;1;01/03/2011;04/03/2011;IT;BL;PIEVE DI CADORE;383,33;460;3569;3;-1;12523;220;220;88;60;1;29;ETRO;Primavera - Estate 2011;Bianco - Azzurro;Uomo;PayPal;2;Camicie;Abbigliamento
+723;1;01/03/2011;04/03/2011;IT;BL;PIEVE DI CADORE;383,33;460;3569;3;-1;15338;240;240;96;60;1;28;CUCINELLI;Primavera - Estate 2011;Beige;Uomo;PayPal;2;Maglieria;Abbigliamento
+724;1;01/03/2011;04/03/2011;FR;Al;ROTHAU;329,17;395;3813;4;-1;18342;395;395;395;0;0;30;BURBERRY;Autunno - Inverno 2011;Classic Check;Uomo;PayPal;24;Shopper;Borse
+725;1;01/03/2011;03/03/2011;IT;RA;RAVENNA;75;90;3763;4;-1;7709;90;150;75;50;1;101;DIADORA;Autunno - Inverno 2011;Viola Scuro;Uomo;Contrassegno;10;Sneakers;Calzature
+726;1;01/03/2011;03/03/2011;IT;RE;CASTELNOVO DI SOTTO;55;66;2743;3;-1;5667;66;110;55;50;1;6;BURBERRY;Autunno - Inverno 2011;Nero;Uomo;PayPal;2;Maglieria;Abbigliamento
+729;1;01/03/2011;03/03/2011;IT;CO;MARIANO COMENSE;285;342;1543;3;-1;5973;120;200;200;0;0;5;CUCINELLI;Autunno - Inverno 2011;Grigio;Uomo;PayPal;42;Cappelli;Accessori
+729;1;01/03/2011;03/03/2011;IT;CO;MARIANO COMENSE;285;342;1543;3;-1;4354;222;370;370;0;0;30;CUCINELLI;Autunno - Inverno 2011;Grigio - Verde;Uomo;PayPal;2;Sciarpe e Foulard;Accessori
+730;1;02/03/2011;07/03/2011;IT;CB;CAMPOBASSO;65;78;781;3;-1;9413;78;130;65;50;1;4;FRED PERRY;Autunno - Inverno 2011;Grigio scuro;Uomo;PayPal;2;Maglieria;Abbigliamento
+731;1;02/03/2011;04/03/2011;IT;PA;PARTINICO;85;102;2583;4;-1;11606;102;170;85;50;1;2;RIVAMONTI;Autunno - Inverno 2011;Blu;Donna;Contrassegno;3;Maglieria;Abbigliamento
+732;1;02/03/2011;14/03/2011;IT;SS;OSILO;286,67;344;3749;3;-1;15250;89;89;45;50;1;4;AERONAUTICA MILITARE;Primavera - Estate 2011;Grigio scuro;Uomo;Contrassegno;2;Polo;Abbigliamento
+732;1;02/03/2011;14/03/2011;IT;SS;OSILO;286,67;344;3749;3;-1;15275;65;65;33;50;1;4;AERONAUTICA MILITARE;Primavera - Estate 2011;Avio;Uomo;Contrassegno;2;T-Shirt;Abbigliamento
+732;1;02/03/2011;14/03/2011;IT;SS;OSILO;286,67;344;3749;3;-1;14857;190;190;95;50;1;66;AERONAUTICA MILITARE;Primavera - Estate 2011;Tortora;Donna;Contrassegno;3;Capispalla;Abbigliamento
+733;1;02/03/2011;04/03/2011;IT;PA;PALERMO;144,5;173,4;3540;3;-1;15263;119;119;60;50;1;4;AERONAUTICA MILITARE;Primavera - Estate 2011;Bianco;Uomo;PayPal;2;Polo;Abbigliamento
+733;1;02/03/2011;04/03/2011;IT;PA;PALERMO;144,5;173,4;3540;3;-1;5165;74,4;124;62;50;1;4;AERONAUTICA MILITARE;Autunno - Inverno 2011;Azzurro;Uomo;PayPal;2;Maglieria;Abbigliamento
+736;1;03/03/2011;07/03/2011;SE;No;Norrk«ü∂Ùping;451,67;542;3572;3;-1;15267;119;119;60;50;1;4;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu scuro;Uomo;Carta di Credito;2;Polo;Abbigliamento
+736;1;03/03/2011;07/03/2011;SE;No;Norrk«ü∂Ùping;451,67;542;3572;3;-1;14808;110;110;55;50;1;5;COOPERATIVA PESCATORI POSILLIPO;Primavera - Estate 2011;Verde;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+736;1;03/03/2011;07/03/2011;SE;No;Norrk«ü∂Ùping;451,67;542;3572;3;-1;14802;159;159;80;50;1;5;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+736;1;03/03/2011;07/03/2011;SE;No;Norrk«ü∂Ùping;451,67;542;3572;3;-1;15186;154;154;77;50;1;4;AERONAUTICA MILITARE;Primavera - Estate 2011;Bianco-Blu;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+737;1;03/03/2011;09/03/2011;CZ;ok;Velka Dobra;1040,83;1249;2838;4;-1;2038;266;380;190;50;1;33;CUCINELLI;Autunno - Inverno 2011;Beige;Uomo;Bonifico Bancario;2;Pantaloni;Abbigliamento
+737;1;03/03/2011;09/03/2011;CZ;ok;Velka Dobra;1040,83;1249;2838;4;-1;5663;77;110;55;50;1;6;BURBERRY;Autunno - Inverno 2011;Blu scuro;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+737;1;03/03/2011;09/03/2011;CZ;ok;Velka Dobra;1040,83;1249;2838;4;-1;10078;336;480;240;50;1;33;LORO PIANA;Autunno - Inverno 2011;Blu scuro;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+737;1;03/03/2011;09/03/2011;CZ;ok;Velka Dobra;1040,83;1249;2838;4;-1;15819;250;250;125;50;1;83;HOGAN REBEL;Primavera - Estate 2011;Bianco;Donna;Bonifico Bancario;9;Sneakers;Calzature
+737;1;03/03/2011;09/03/2011;CZ;ok;Velka Dobra;1040,83;1249;2838;4;-1;5652;90;150;75;50;1;7;BURBERRY;Autunno - Inverno 2011;Grigio;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+737;1;03/03/2011;09/03/2011;CZ;ok;Velka Dobra;1040,83;1249;2838;4;-1;13791;230;230;115;50;1;111;HOGAN REBEL;Primavera - Estate 2011;Blu scuro;Uomo;Bonifico Bancario;10;Sneakers;Calzature
+738;1;03/03/2011;07/03/2011;IT;NO;CERANO;141,67;170;3647;4;-1;11258;64;106;53;50;1;612;BURBERRY;Autunno - Inverno 2011;Blu;Baby Boy;PayPal;17;Maglieria;Abbigliamento
+738;1;03/03/2011;07/03/2011;IT;NO;CERANO;141,67;170;3647;4;-1;11244;35;58;29;50;1;612;BURBERRY;Autunno - Inverno 2011;Panna;Baby Boy;PayPal;17;Maglieria;Abbigliamento
+738;1;03/03/2011;07/03/2011;IT;NO;CERANO;141,67;170;3647;4;-1;11272;26;44;22;50;1;609;BURBERRY;Autunno - Inverno 2011;Panna;Baby Boy;PayPal;17;Maglieria;Abbigliamento
+738;1;03/03/2011;07/03/2011;IT;NO;CERANO;141,67;170;3647;4;-1;14187;65;65;33;50;1;613;BURBERRY;Primavera - Estate 2011;Rosso;Kids Girl;PayPal;16;Maglieria;Abbigliamento
+739;1;05/03/2011;09/03/2011;IT;CT;Paterno;112,5;135;2720;3;-1;13372;135;135;54;60;1;529;JECKERSON;Primavera - Estate 2011;Denim medio;Uomo;Carta di Credito;2;Jeans;Abbigliamento
+740;1;06/03/2011;10/03/2011;IT;AL;SALE;237,5;285;3864;3;-1;15268;119;119;60;50;1;5;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu scuro;Uomo;PayPal;2;Polo;Abbigliamento
+740;1;06/03/2011;10/03/2011;IT;AL;SALE;237,5;285;3864;3;-1;13616;166;166;83;50;1;31;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu medio;Uomo;PayPal;2;Capispalla;Abbigliamento
+741;1;07/03/2011;10/03/2011;CA;On;Toronto;220,83;220,83;1342;4;-1;14804;132,5;159;80;50;1;7;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu;Uomo;Carta di Credito;2;Maglieria;Abbigliamento
+741;1;07/03/2011;10/03/2011;CA;On;Toronto;220,83;220,83;1342;4;-1;13765;88,33;106;53;50;1;7;AERONAUTICA MILITARE;Primavera - Estate 2011;Bianco;Uomo;Carta di Credito;2;Camicie;Abbigliamento
+742;1;07/03/2011;09/03/2011;IT;ME;MALVAGNA;148,33;178;1161;3;-1;15249;89;89;45;50;1;3;AERONAUTICA MILITARE;Primavera - Estate 2011;Grigio scuro;Uomo;Carta di Credito;2;Polo;Abbigliamento
+742;1;07/03/2011;09/03/2011;IT;ME;MALVAGNA;148,33;178;1161;3;-1;15258;89;89;45;50;1;3;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu scuro;Uomo;Carta di Credito;2;Polo;Abbigliamento
+746;1;07/03/2011;08/03/2011;IT;BN;CERRETO SANNITA;200;240;3414;3;-1;13770;240;240;120;50;1;103;HOGAN REBEL;Primavera - Estate 2011;Blu;Uomo;Contrassegno;10;Sneakers;Calzature
+751;1;08/03/2011;15/03/2011;FR;LY;VENISSIEUX;600;720;3881;3;-1;16123;720;720;360;50;1;33;AERONAUTICA MILITARE;Autunno - Inverno 2011;Marrone;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+752;1;09/03/2011;14/03/2011;LU;Lu;Luxembourg;581,67;698;3756;3;-1;14461;698;698;280;60;1;7;FAY;Primavera - Estate 2011;Verde oliva;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+753;1;09/03/2011;11/03/2011;IT;MI;MILANO;120,83;145;3906;4;-1;14669;145;145;73;50;1;623;HOGAN;Primavera - Estate 2011;Bianco-Blu;Junior Boy;Contrassegno;18;Sneakers;Calzature
+754;1;14/03/2011;16/03/2011;IT;KR;ROCCABERNARDA;112,5;135;2244;3;-1;16805;135;135;54;60;1;6;FAY;Primavera - Estate 2011;Fucsia;Uomo;PayPal;2;Polo;Abbigliamento
+756;1;14/03/2011;22/03/2011;IT;PN;MANIAGO;162,5;195;3957;4;-1;15006;195;195;98;50;1;2;BURBERRY;Primavera - Estate 2011;Check beige;Donna;Bonifico Bancario;3;Camicie;Abbigliamento
+757;1;14/03/2011;22/03/2011;CZ;ok;Velka Dobra;437,5;525;2838;4;-1;16796;135;135;54;60;1;7;FAY;Primavera - Estate 2011;Blu scuro;Uomo;Bonifico Bancario;2;Polo;Abbigliamento
+757;1;14/03/2011;22/03/2011;CZ;ok;Velka Dobra;437,5;525;2838;4;-1;16765;390;390;195;50;1;7;HOGAN;Primavera - Estate 2011;Blu Navy;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+758;1;15/03/2011;21/03/2011;IT;CE;CURTI;208,33;250;3977;3;-1;12250;250;250;125;50;1;108;PRADA SPORT;Primavera - Estate 2011;Beige;Uomo;Contrassegno;10;Sneakers;Calzature
+759;1;16/03/2011;23/03/2011;IT;CA;SESTU;229,17;275;3805;3;-1;12481;275;275;138;50;1;100;SANTONI;Primavera - Estate 2011;Blu - Bianco;Uomo;Contrassegno;10;Sneakers;Calzature
+761;1;17/03/2011;21/03/2011;IT;TV;PONZANO VENETO;70,5;84,6;1105;3;-1;14776;84,6;94;47;50;1;5;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu scuro;Uomo;PayPal;2;Maglieria;Abbigliamento
+762;1;17/03/2011;22/03/2011;IT;TO;MONCALIERI;220,5;264,6;4005;4;-1;14786;180;200;100;50;1;5;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+762;1;17/03/2011;22/03/2011;IT;TO;MONCALIERI;220,5;264,6;4005;4;-1;14777;84,6;94;47;50;1;6;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu scuro;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+764;1;20/03/2011;28/03/2011;DE;NR;Kleve;108,33;130;1359;3;-1;14477;130;130;65;50;1;30;AERONAUTICA MILITARE;Primavera - Estate 2011;Beige;Uomo;PayPal;2;Bermuda;Abbigliamento
+765;1;21/03/2011;23/03/2011;IT;VR;GREZZANA;758,33;910;4008;3;-1;14497;590;590;236;60;1;31;FAY;Primavera - Estate 2011;Blu notte;Uomo;PayPal;2;Capispalla;Abbigliamento
+765;1;21/03/2011;23/03/2011;IT;VR;GREZZANA;758,33;910;4008;3;-1;13697;340;340;170;50;1;109;TOD'S;Primavera - Estate 2011;Blu scuro;Uomo;PayPal;10;Polacco;Calzature
+767;1;21/03/2011;29/03/2011;IT;RM;ROCCA PRIORA;166,67;200;4069;3;-1;13760;106;106;53;50;1;7;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu medio;Uomo;Contrassegno;2;Camicie;Abbigliamento
+767;1;21/03/2011;29/03/2011;IT;RM;ROCCA PRIORA;166,67;200;4069;3;-1;14778;94;94;47;50;1;7;AERONAUTICA MILITARE;Primavera - Estate 2011;Blu scuro;Uomo;Contrassegno;2;Maglieria;Abbigliamento
+768;1;22/03/2011;29/03/2011;CZ;ok;Velka Dobra;550;660;2838;4;-1;16999;240;240;96;60;1;33;BORRELLI;Primavera - Estate 2011;Blu-Grigio;Uomo;Bonifico Bancario;2;Maglieria;Abbigliamento
+768;1;22/03/2011;29/03/2011;CZ;ok;Velka Dobra;550;660;2838;4;-1;16978;420;420;210;50;1;7;HOGAN;Primavera - Estate 2011;Beige;Uomo;Bonifico Bancario;2;Capispalla;Abbigliamento
+770;1;22/03/2011;24/03/2011;IT;TO;POIRINO;120,83;145;3761;4;-1;14337;145;145;73;50;1;623;HOGAN;Primavera - Estate 2011;Blu scuro;Junior Boy;PayPal;18;Sneakers;Calzature
+771;1;22/03/2011;24/03/2011;IT;BA;MOLFETTA;329,17;395;2362;4;-1;13272;395;395;198;50;1;79;GUCCI;Primavera - Estate 2011;Beige;Donna;PayPal;9;Decolletes;Calzature
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;15842;650;650;325;50;1;70;BURBERRY;Primavera - Estate 2011;Bianco;Donna;Bonifico Bancario;3;Capispalla;Abbigliamento
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;12665;290;290;145;50;1;83;HOGAN;Primavera - Estate 2011;Ghiaccio;Donna;Bonifico Bancario;9;Sneakers;Calzature
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;12694;270;270;135;50;1;83;HOGAN;Primavera - Estate 2011;Beige;Donna;Bonifico Bancario;9;Sneakers;Calzature
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;16509;125;125;63;50;1;70;ROY ROGERS;Primavera - Estate 2011;Blu scuro;Donna;Bonifico Bancario;3;Jeans;
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;14904;137;137;69;50;1;70;HEAVY PROJECT;Primavera - Estate 2011;Denim scuro;Donna;Bonifico Bancario;3;Jeans;Abbigliamento
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;14113;230;230;115;50;1;7;FAY;Primavera - Estate 2011;Bianco-Celeste;Donna;Bonifico Bancario;3;Camicie;Abbigliamento
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;14058;230;230;115;50;1;70;FAY;Primavera - Estate 2011;Blu;Donna;Bonifico Bancario;3;Pantaloni;Abbigliamento
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;14088;230;230;115;50;1;70;FAY;Primavera - Estate 2011;Nero;Donna;Bonifico Bancario;3;Pantaloni;Abbigliamento
+772;1;23/03/2011;04/04/2011;IT;NA;somma vesuviana;2380,83;2857;4035;4;-1;14708;695;695;695;0;0;30;BURBERRY;Primavera - Estate 2011;Blu;Donna;Bonifico Bancario;45;Shopper;Borse
+774;1;23/03/2011;29/03/2011;IT;NU;NUORO;191,67;230;4091;4;-1;16359;230;230;115;50;1;82;PRADA SPORT;Primavera - Estate 2011;Nero;Donna;Contrassegno;9;Ballerine;Calzature
