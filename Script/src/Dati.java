@@ -359,13 +359,19 @@ public class Dati {
 				 idGruppoTaglie  + ";" + nomeCat  + ";" + nomeMac;
 		 
 	}
-	
+	/**
+	 * verifica se la città è dello stesso stato
+	 */
 	public void controllaStato(String []vet) throws StatoException {
-		if (controllaProvinciaCitta() && codStatoFattura!="IT") {
+		if (controllaProvinciaCitta() && !codStatoFattura.equals("IT")) {
 			throw new StatoException("CodStatoFattura errato nella riga " + Utility.vetToString(vet));
 		}
 	}
 	
+	/**
+	 * verifica se la provincia e la città sono italiani
+	 * @return
+	 */
 	public boolean controllaProvinciaCitta() {
 		
 	Scanner scanner ;//
@@ -374,13 +380,17 @@ public class Dati {
 			scanner = new Scanner (new File("Elenco-comuni-italiani.csv"));
 			String aux =scanner.nextLine(); 
 			while (scanner.hasNextLine()) {
+				String prov;
 				String[] stringa;
-				stringa = scanner.nextLine().split(";");
-				if (codProvinciaFattura==stringa[3]) {
-					if (comuneFatturazione==stringa[0]) {
-					scanner.close();
+				
+				prov = scanner.nextLine();
+				System.out.println(prov);
+				stringa = prov.split(";");
+				String prov2= stringa[3];
+				if (codProvinciaFattura.equals(prov2)) {
+					if (comuneFatturazione.equals(stringa[0])) {
+					//scanner.close();
 					trovato= true;
-					break;
 					}
 				}
 	       
