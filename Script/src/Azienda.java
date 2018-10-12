@@ -12,6 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import eccezione.DateFormatException;
 import eccezione.GeneralException;
 import eccezione.IntestazioneException;
 import utility.Utility;
@@ -23,18 +24,29 @@ public class Azienda {
 	
 	
 	public void controllaDati(){ 
-	
+		
+		ArrayList <String> fileDaControllare;
 		Scanner scanner;
 		
 		int conta = 0;
 		try {
-			scanner = new Scanner (new File(""
-					+ "*.csv"));
+			fileDaControllare = controlFileName();
+			if (fileDaControllare == null) throw new FileNotFoundException("Nessun file con il giusto formato");
+			
+			for (int i = 0; i < fileDaControllare.size(); i++) {
+				String nomeFile = "C:/Users/rino9/OneDrive/Dati/" + fileDaControllare.get(i);
+				System.out.println("nomeFile:" + nomeFile);
+			
+			scanner = new Scanner (new File(nomeFile));
 			String aux =scanner.nextLine(); 
+			System.out.println(aux);
 			Dati.controllaIntestazione(aux);
 			while (scanner.hasNextLine()) {
 				String[] stringa;
-				stringa = scanner.nextLine().split(";");
+				String s;
+				s = scanner.nextLine();
+				System.out.println(s);
+				stringa = s.split(";");
 				Utility.campoVuoto(stringa);
 				Dati dati = new Dati();
 				dati.set(stringa);
@@ -45,6 +57,7 @@ public class Azienda {
 				
 				}
 			scanner.close();
+			}
 		
 		}catch(FileNotFoundException e) {
 			System.out.println(e.getMessage());
@@ -88,33 +101,39 @@ public class Azienda {
 	
 	}
 	
-	public static void controlFileName() {
+	public ArrayList<String> controlFileName() {
+		int trovati = 0;
 		DateFormat date = new SimpleDateFormat("dd/MM/yy");
-		ArrayList <String[]> fileDaControllare = new ArrayList<String[]>();
+		ArrayList <String> file = new ArrayList<String>();
 		String nome = "C:/Users/rino9/OneDrive/Dati";
-		String data;
-		String ora;
-		File d = new File(nome);
-		String[] list = d.list();
-		
-		for (int i = 0; i < list.length; i++) {
-			String s = list[i];
-			String[] split = s.split("_");
+		File directory = new File(nome);
+		String[] list = directory.list();
+		System.out.println("list.lenght: " + list.length);
+		for (int i = 0; i < list.length; ++i) {
+			String data, ora;
+			System.out.println("File presenti: " + list[i]);
+			String nomeFile = list[i];
+			String[] split = nomeFile.split("_");
 			if (split.length == 2) {
 				data = split[0];
-				ora = split[1];
+				ora = split[1].substring(0, 4);
+				System.out.println("lungh " + split.length);
+				System.out.println("split[0]: " + data);
+				System.out.println("split[1]: " + ora);
+				if(Utility.controlFormatDateDirectory(data) && 
+						Utility.controlFormatHoursDirectory(ora)) {
+					file.add(nomeFile);
+					trovati++;
+				}
 				
 			}
-			
 		}
-			
+		
+		if (trovati > 0) return file;
+		else return null;
 		
 	}
 	
-private String controlFormatDate(String data){
-	
-	String stringa = "";
-	for (int )
-}
+
 	
 }

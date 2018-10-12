@@ -106,5 +106,39 @@ public class Utility {
 		}
 	}
 	
+	public static boolean controlFormatDateDirectory(String stringa) {
+		
+		if (stringa.length() != 6) return false;
+		int giorno = (Character.getNumericValue(stringa.charAt(0)) *10)
+				+ Character.getNumericValue(stringa.charAt(1));
+		int mese = (Character.getNumericValue(stringa.charAt(2)) *10)
+				+ Character.getNumericValue(stringa.charAt(3));
+		int anno = (Character.getNumericValue(stringa.charAt(4)) *10)
+				+ Character.getNumericValue(stringa.charAt(5));
+		System.out.println("giorno: " + giorno);
+		System.out.println("mese: " + mese);
+		System.out.println("anno: " + anno);
+		if (giorno < 32 && giorno > 0) {
+			if(mese < 12 && mese > 0) {
+				if(anno > 10) return true;
+				else return false;
+			}else return false;
+		}else return false;
+	}
+
+	public static boolean controlFormatHoursDirectory(String stringa) {
+		
+		if (stringa.length() != 4) return false;
+		int ora = (Character.getNumericValue(stringa.charAt(0)) *10) + Character.getNumericValue(stringa.charAt(1));
+		int minuti =(Character.getNumericValue(stringa.charAt(2)) *10) + Character.getNumericValue(stringa.charAt(3));
+		System.out.println("ora: " + ora);
+		System.out.println("minuti: " + minuti);
+		if (ora > 0 && ora < 24) {
+			if(minuti > 0 && minuti < 59) return true;
+			else return false;
+		} else return false;
+		
+	}
+	
 	
 }
