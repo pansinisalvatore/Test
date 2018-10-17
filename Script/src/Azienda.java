@@ -8,9 +8,12 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+
 
 import eccezione.DateFormatException;
 import eccezione.GeneralException;
@@ -35,69 +38,63 @@ public class Azienda {
 			
 			for (int i = 0; i < fileDaControllare.size(); i++) {
 				String nomeFile = "C:/Users/rino9/OneDrive/Dati/" + fileDaControllare.get(i);
-				System.out.println("nomeFile:" + nomeFile);
+				
 			
 			scanner = new Scanner (new File(nomeFile));
 			String aux =scanner.nextLine(); 
-			System.out.println(aux);
 			Dati.controllaIntestazione(aux);
 			while (scanner.hasNextLine()) {
-				String[] stringa;
-				String s;
-				s = scanner.nextLine();
+				String stringa;
+				stringa = scanner.nextLine();
 
-				stringa = s.split(";");
+				
 				Utility.campoVuoto(stringa);
-				Dati dati = new Dati();
-				dati.set(stringa);
+				Dati dati = new Dati(stringa.split(";"));
 				dati.controllaNumeroColonne(stringa);
-				conta++;
+				//dati.set(stringa);
+				
+				addDefinitivo(dati);
+				dati = null;
 				}
 			scanner.close();
-			System.out.println("conta: "+conta);
+			
 			}
 		
 		}catch(FileNotFoundException e) {
 			System.out.println(e.getMessage());
 		}catch (GeneralException e) {
 			System.out.println(e.getMessage());
+			System.out.println("dove sei?");
+			System.exit(0);
 		}
 		
 	}
 	
-	public void addDefinitivo() {
+	public void addDefinitivo(Dati dati) {
 		
 		
 		PrintWriter output= null;
-		String s = "82;1;21/09/2010;28/09/2010;LU;Lu;Pétange;128,33;154;1478;3;-1;2851;154;154;77;50;1;3;AERONAUTICA MILITARE;Autunno - Inverno 2011;Blu;Uomo;PayPal;2;Maglieria;Abbigliamento";
 		String nome = "C:/Users/rino9/OneDrive/Dati/Definitivo/def.csv";
-	
+		Definitivo definitivo = new Definitivo(dati.toString());
+		definitivo.setLocation();
 		try {
+			definitivo.estrapolaData();
 		output = new PrintWriter (new FileOutputStream(nome, true));
-		
-			output.write(s + "/n");
+		String riga = definitivo.toString();
+		System.out.println(riga);
+		if(!Utility.stringIntoFile(riga))
+			output.println(riga);
 		output.close();
 		}catch (FileNotFoundException e) {
 			System.out.println(e.getMessage());
 		}catch (IOException e) {
 			System.out.println("Errore nella scrittura del file");
+		} catch (ParseException e) {
+		   System.out.println(e.getMessage());
 		}
 	}
 	
-	private void createFile(String nomeFile) {
-		try {
-			File file = new File(nomeFile);
-			if (!file.exists()) {
-				file.createNewFile();
-				System.out.println(file.getName());
-			}
-			
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		
 	
-	}
 	
 	public ArrayList<String> controlFileName() {
 		int trovati = 0;
@@ -106,18 +103,15 @@ public class Azienda {
 		String nome = "C:/Users/rino9/OneDrive/Dati";
 		File directory = new File(nome);
 		String[] list = directory.list();
-		System.out.println("list.lenght: " + list.length);
+		
 		for (int i = 0; i < list.length; ++i) {
 			String data, ora;
-			System.out.println("File presenti: " + list[i]);
+			
 			String nomeFile = list[i];
 			String[] split = nomeFile.split("_");
 			if (split.length == 2) {
 				data = split[0];
 				ora = split[1].substring(0, 4);
-				System.out.println("lungh " + split.length);
-				System.out.println("split[0]: " + data);
-				System.out.println("split[1]: " + ora);
 				if(Utility.controlFormatDateDirectory(data) && 
 						Utility.controlFormatHoursDirectory(ora)) {
 					file.add(nomeFile);

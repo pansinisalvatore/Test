@@ -2,6 +2,9 @@ package utility;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 import eccezione.EmptyException;
@@ -102,11 +105,11 @@ public class Utility {
 		return value;
 	}
 	
-	public static void campoVuoto(String[] string) throws EmptyException {
-		
-		for (int i = 0; i < string.length; i++) {
-			if (string[i].equals("")) 
-				throw new EmptyException(Utility.vetToString(string));
+	public static void campoVuoto(String string) throws EmptyException {
+		String[] split = string.split(";");
+		for (int i = 0; i < split.length; i++) {
+			if (split[i].equals("")) 
+				throw new EmptyException(string);
 		}
 	}
 	
@@ -119,9 +122,7 @@ public class Utility {
 				+ Character.getNumericValue(stringa.charAt(3));
 		int anno = (Character.getNumericValue(stringa.charAt(4)) *10)
 				+ Character.getNumericValue(stringa.charAt(5));
-		System.out.println("giorno: " + giorno);
-		System.out.println("mese: " + mese);
-		System.out.println("anno: " + anno);
+		
 		if (giorno < 32 && giorno > 0) {
 			if(mese < 12 && mese > 0) {
 				if(anno > 10) return true;
@@ -135,8 +136,7 @@ public class Utility {
 		if (stringa.length() != 4) return false;
 		int ora = (Character.getNumericValue(stringa.charAt(0)) *10) + Character.getNumericValue(stringa.charAt(1));
 		int minuti =(Character.getNumericValue(stringa.charAt(2)) *10) + Character.getNumericValue(stringa.charAt(3));
-		System.out.println("ora: " + ora);
-		System.out.println("minuti: " + minuti);
+		
 		if (ora > 0 && ora < 24) {
 			if(minuti > 0 && minuti < 59) return true;
 			else return false;
@@ -147,6 +147,7 @@ public class Utility {
 	public static boolean stringIntoFile(String string) {
 		String nomeFile = "C:/Users/rino9/OneDrive/Dati/Definitivo/def.csv";
 		Scanner scanner;
+		createFile(nomeFile);
 		try {
 		 	scanner = new Scanner (new File(nomeFile));
 		 	while (scanner.hasNextLine()) {
@@ -160,4 +161,32 @@ public class Utility {
 	}
 	return false;
 }
+	
+	
+	private static void createFile(String nomeFile) {
+		PrintWriter output;
+		String intestazione = "IdOrdine;IdCorriere;DataOrdine;GiornoOrdine;MeseOrdine;AnnoOrdine;FestivoOrdine"
+				+"DataConsegna;GiornoConsegna;MeseConsegna;AnnoConsegna;"
+				+ "CodStatoFattura;CodProvinciaFattura;PosizioneGeografica;ComuneFatturazione;TotaleImponibileFattura;"
+				+ "TotaleConIva;IdCliente;Sesso;Quantita;IdMagazzino;PrezzoVendita;PrezzoPieno;"
+				+ "PrezzoScontato;Sconto;Outlet;IdTaglia2;NomeDes;LinguaCollezione;LinguaColore;"
+				+ "NomeSes;PagamentoOrdine;IdGruppoTaglie;NomeCat;NomeMac";
+		try {
+			File file = new File(nomeFile);
+			if (!file.exists()) {
+				//file.createNewFile();
+				
+				output = new PrintWriter (new FileOutputStream(nomeFile));
+				output.println(intestazione);
+				output.close();
+				
+			}
+			
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	
+	}
 }

@@ -6,6 +6,7 @@ import eccezione.DataException;
 import eccezione.GeneralException;
 import eccezione.NegativeException;
 import eccezione.OutletException;
+import eccezione.SessoException;
 import eccezione.StatoException;
 import utility.Utility;
 public class Dati {
@@ -44,7 +45,49 @@ public class Dati {
 	private String nomeCat;
 	private String nomeMac;
 	
+	/**
+	 * fa i controlli
+	 * @param split
+	 */
+	public Dati(String[] split) throws GeneralException {
+			set(split);
+	}
 	
+	public Dati(String string) {
+		set(string);
+	}
+	
+	public void set(String string) {
+		String[] stringa = string.split(";");
+			idOrdine = stringa[0];
+			idCorriere = stringa [1];
+			dataOrdine = stringa [2].trim();
+			dataConsegna = stringa [3].trim();
+			codStatoFattura = stringa [4];
+			codProvinciaFattura = stringa [5];
+			comuneFatturazione = stringa [6];
+			totaleImponibileFattura = stringa [7];
+			totaleConIva = stringa[8];
+			idCliente = stringa[9];	
+			sesso = stringa [10];
+			quantita = stringa[11];
+			idMagazzino = stringa [12];
+			prezzoVendita = stringa [13];
+			prezzoPieno = stringa [14];
+			prezzoScontato = stringa [15];
+			sconto = stringa [16];
+			outlet = stringa [17];
+			idTaglia2 = stringa [18];
+			nomeDes = stringa [19];
+			linguaCollezione = stringa [20]; 
+			linguaColore = stringa [21];
+			nomeSes = stringa [22];
+			pagamentoOrdine = stringa [23];
+			idGruppoTaglie = stringa [24];
+			nomeCat = stringa [25];
+			nomeMac = stringa [26];
+			
+	}
 	public String getIdOrdine() {
 		return idOrdine;
 	}
@@ -235,9 +278,9 @@ public class Dati {
 		else throw new NegativeException("totaleConIva nella riga" + Utility.vetToString(stringa));
 		if (Utility.positivo(stringa[9]))
 		idCliente = stringa[9];
-		else throw new NegativeException("idCliente nella riga" + Utility.vetToString(stringa));
-		controllaSesso(stringa[10]);
+		else throw new NegativeException("idCliente nella riga" + Utility.vetToString(stringa));	
 		sesso = stringa [10];
+		controllaSesso(Utility.vetToString(stringa));
 		setQuantita(stringa[11]);
 		if (Utility.positivo(stringa[12]))
 		idMagazzino = stringa [12];
@@ -277,21 +320,16 @@ public class Dati {
 			throw new eccezione.IntestazioneException();
 	}
 	
-	public void controllaNumeroColonne(String[] vet) throws eccezione.NumeroColonneException{
-		
+	public void controllaNumeroColonne(String string) throws eccezione.NumeroColonneException{
+		String[] vet = string.split(";");
 		if (vet.length != 27) throw new eccezione.NumeroColonneException(vet.length,Utility.vetToString(vet) );
 	}
 	
-	public void controllaSesso (String riga) throws eccezione.SessoException{
+	public void controllaSesso (String riga) throws SessoException{
 	
-		if ((Integer.parseInt(sesso) != 3) && (Integer.parseInt(sesso) !=4))
-			throw new eccezione.SessoException(riga);
-		if (Integer.parseInt(sesso)==3) {
-			setSesso("Uomo");
-		}
-		else {
-			setSesso("Donna");
-		}
+		if (sesso.equals("3")) setSesso("Uomo");
+		else if (sesso.equals("4")) setSesso("Donna");
+		else throw new SessoException(riga);
 			
 	}
 	/**
@@ -364,16 +402,16 @@ public class Dati {
 	 * verifica se la città è dello stesso stato
 	 */
 	public void controllaStato(String []vet) throws StatoException {
-		if (controllaProvinciaCitta() && !codStatoFattura.equals("IT")) {
+		if (controllaProvincia() && !codStatoFattura.equals("IT")) {
 			throw new StatoException("CodStatoFattura errato nella riga " + Utility.vetToString(vet));
 		}
 	}
 	
 	/**
-	 * verifica se la provincia e la città sono italiani
+	 * verifica se la provincia è italiana
 	 * @return
 	 */
-	public boolean controllaProvinciaCitta() {
+	public boolean controllaProvincia() {
 		
 	Scanner scanner ;
 	
@@ -390,10 +428,9 @@ public class Dati {
 				stringa = prov.split(";");
 				String prov2= stringa[3];
 				if (codProvinciaFattura.equals(prov2)) {
-					if (comuneFatturazione.equals(stringa[0])) {
 					//scanner.close();
 					trovato= true;
-					}
+					
 				}
 	       
 	       }scanner.close();

@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.Iterator;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -13,13 +14,12 @@ import java.util.Calendar;
 
 public class Definitivo extends Dati {
 
-	
-	private static final String INTESTAZIONE = "IdOrdine;IdCorriere;DataOrdine;DataConsegna;"
-			+ "CodStatoFattura;CodProvinciaFattura;Location;ComuneFatturazione;TotaleImponibileFattura;"
+	public static final String INTESTAZIONE = "IdOrdine;IdCorriere;DataOrdine;GiornoOrdine;MeseOrdine;AnnoOrdine;FestivoOrdine"
+			+"DataConsegna;GiornoConsegna;MeseConsegna;AnnoConsegna;"
+			+ "CodStatoFattura;CodProvinciaFattura;PosizioneGeografica;ComuneFatturazione;TotaleImponibileFattura;"
 			+ "TotaleConIva;IdCliente;Sesso;Quantita;IdMagazzino;PrezzoVendita;PrezzoPieno;"
 			+ "PrezzoScontato;Sconto;Outlet;IdTaglia2;NomeDes;LinguaCollezione;LinguaColore;"
 			+ "NomeSes;PagamentoOrdine;IdGruppoTaglie;NomeCat;NomeMac";
-	
 	private String location;
 	private String nomeGiornoOrdine;
 	private int numeroGiornoSettOrdine;
@@ -30,35 +30,60 @@ public class Definitivo extends Dati {
 	private String annoConsegna;
 	private String isFestivoOrdine;
 
-	
+	public Definitivo(String set) {
+		super(set);
+	}
 	public void setLocation() {
-		 String nomeFile = "elenco comuni.csv";
+		 String nomeFile = "elenco.csv";
 		 Scanner scanner;
+		 String posizione="";
+		 
+		 boolean inserito = false;
 		 try {
 			 	scanner = new Scanner (new File(nomeFile));
-			 	scanner.nextLine();
-			 	while(scanner.hasNextLine()) {
+			 	//scanner.nextLine();
+			 	for (;;) {
+			 		String provincia;
 			 		String stringa = scanner.nextLine();
 			 		String[] split = stringa.split(";");
-			 		String posizione = split[1];
-			 		String provincia = split[2].toUpperCase();
-			 		if (provincia.equals(getCodProvinciaFattura()))
-			 			location = posizione;
+			 		System.out.println("split "+ split.length +" "+ split[0]+ " "+split[1]+ " "+split[2]);
+			 		
+			 		provincia = split[2].toUpperCase();
+			 		System.out.println( "provincia" + provincia);
+			 		System.out.println(getCodProvinciaFattura().toUpperCase() );
+			 		String codiceProvincia = getCodProvinciaFattura().toUpperCase();
+			 	
+			 		if (provincia.equals(codiceProvincia)) {
+			 			setLocation(posizione.toString());
+			 		    System.out.println("sono entrato");
+			 			inserito = true;
+			 			break;
+			 		}
+			 		
+			 		if (!scanner.hasNextLine()) break;
 			 	}
+			 	if (!inserito) location = "Estero";
 			 
 		 }catch (FileNotFoundException e) {
 			 System.out.println(e.getMessage());
 		 }
 	}
 	
+	private void setLocation(String posizione) {
+		this.location = posizione;
+		
+	}
 	public String getLocation() {
 		return location;
 	}
 	
 	
+
 	public String toString() {
-		return getIdOrdine() + ";" + getIdCorriere() + ";" + getDataOrdine() + ";" +
-				getDataConsegna() + ";" + getCodStatoFattura() + ";" +
+		return getIdOrdine() + ";" + getIdCorriere() + ";" + getDataOrdine() + ";" + getNomeGiornoOrdine()+";" +
+				getNomeMeseOrdine() + ";" + getAnnoOrdine() +";" + getIsFestivoOrdine() + ";" +getDataConsegna() + ";" +
+				getNomeGiornoConsegna()+";" + getNomeMeseConsegna() + ";" + getAnnoConsegna() +";" 
+				+ getCodStatoFattura() + ";" +
 				getCodProvinciaFattura() + ";" + getLocation() + ";" + getComuneFatturazione() + ";" +
 				getTotaleImponibileFattura() + ";" + getTotaleConIva() +";" +
 				getIdCliente() + ";" +  getSesso() + ";" + getQuantita()  + ";" +
@@ -74,16 +99,17 @@ public class Definitivo extends Dati {
 	
 	
 	
-	public void estrapolaData() throws ParseException {
-		 setNomeGiornoOrdine(new SimpleDateFormat("EEEE").format(new SimpleDateFormat("dd/mm/aaaa").parse(getDataOrdine())));
-		 setNomeGiornoConsegna(new SimpleDateFormat("EEEE").format(new SimpleDateFormat("dd/mm/aaaa").parse(getDataConsegna())));
+	public void estrapolaData() throws ParseException  {
+		
+		 setNomeGiornoOrdine(new SimpleDateFormat("EEEE").format(new SimpleDateFormat("dd/MM/yyyy").parse(getDataOrdine())));
+		 setNomeGiornoConsegna(new SimpleDateFormat("EEEE").format(new SimpleDateFormat("dd/MM/yyyy").parse(getDataConsegna())));
 	     Calendar c= Calendar.getInstance();
-	     c.setTime(new SimpleDateFormat("dd/mm/aaaa").parse(getDataOrdine()));
+	     c.setTime(new SimpleDateFormat("dd/MM/yyyy").parse(getDataOrdine()));
 	     numeroGiornoSettOrdine= c.get(Calendar.DAY_OF_WEEK);
 	     setNomeMeseOrdine(new SimpleDateFormat("MMMM").format(c.getTime()));
 	     setAnnoOrdine(((Integer)c.get(Calendar.YEAR)).toString());
 	     setIsFestivoOrdine(isFestivo());
-	     c.setTime(new SimpleDateFormat("dd/mm/aaaa").parse(getDataConsegna()));
+	     c.setTime(new SimpleDateFormat("dd/MM/yyyy").parse(getDataConsegna()));
 	     setNomeMeseConsegna(new SimpleDateFormat("MMMM").format(c.getTime()));
 	     setAnnoConsegna(((Integer)c.get(Calendar.YEAR)).toString());
 	     
@@ -134,7 +160,7 @@ public class Definitivo extends Dati {
 		   }
 		   
 		    Calendar calendar = new GregorianCalendar();
-	 	    calendar.setTime(new SimpleDateFormat("dd/mm/aaaa").parse(getDataOrdine()));
+	 	    calendar.setTime(new SimpleDateFormat("dd/MM/yyyy").parse(getDataOrdine()));
 	 				
 	 		int year = calendar.get(Calendar.YEAR);
 	 		int dateYMD = year * 10000 + 
@@ -263,7 +289,7 @@ public class Definitivo extends Dati {
 			this.isFestivoOrdine = isFestivoOrdine;
 		}
  	 	
- 	 	
+
  	 	
  	 }
 	
