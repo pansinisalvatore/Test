@@ -375,7 +375,8 @@ public class Dati {
 	 */
 	public boolean controllaProvinciaCitta() {
 		
-	Scanner scanner ;//
+	Scanner scanner ;
+	
 	boolean trovato=false;
 		try {
 			scanner = new Scanner (new File("Elenco-comuni-italiani.csv"));
