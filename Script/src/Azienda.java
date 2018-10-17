@@ -50,12 +50,7 @@ public class Azienda {
 				Utility.campoVuoto(stringa);
 				Dati dati = new Dati();
 				dati.set(stringa);
-				//dati.controllaStato(stringa);
-				dati.setQuantitaPositiva();
 				dati.controllaNumeroColonne(stringa);
-				dati.controllaSesso(Utility.vetToString(stringa));
-				dati.controllaData(stringa);
-				dati.controllaOutlet(stringa);
 				conta++;
 				}
 			scanner.close();

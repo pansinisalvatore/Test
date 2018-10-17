@@ -1,5 +1,9 @@
 package utility;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 import eccezione.EmptyException;
 
 public class Utility {
@@ -140,5 +144,20 @@ public class Utility {
 		
 	}
 	
-	
+	public static boolean stringIntoFile(String string) {
+		String nomeFile = "C:/Users/rino9/OneDrive/Dati/Definitivo/def.csv";
+		Scanner scanner;
+		try {
+		 	scanner = new Scanner (new File(nomeFile));
+		 	while (scanner.hasNextLine()) {
+		 		String stringaFile = scanner.nextLine();
+		 		if(string.equals(stringaFile)) return true;
+		 	}
+		 		scanner.close();
+	}catch (FileNotFoundException e) {
+		System.out.println(e.getMessage());
+		return false;
+	}
+	return false;
+}
 }

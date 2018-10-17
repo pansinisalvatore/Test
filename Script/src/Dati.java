@@ -114,8 +114,13 @@ public class Dati {
 	public String getQuantita() {
 		return quantita;
 	}
-	public void setQuantita(String quantita) {
-		this.quantita = quantita;
+	public void setQuantita(String string) {
+		
+		int quantitaPos;
+		if ((Integer.parseInt(string))<0) {
+			quantitaPos=Integer.parseInt(string)*(-1);
+			quantita = (String.valueOf(quantitaPos));
+		}
 	}
 	public String getIdMagazzino() {
 		return idMagazzino;
@@ -208,7 +213,7 @@ public class Dati {
 		this.nomeMac = nomeMac;
 	}
 	
-	public void set(String[] stringa) throws NegativeException {
+	public void set(String[] stringa) throws GeneralException {
 		
 		if (Utility.positivo(stringa[0]))
 		idOrdine = stringa[0];
@@ -218,6 +223,7 @@ public class Dati {
 		else throw new NegativeException("idCorriere nella riga" + Utility.vetToString(stringa));
 		dataOrdine = stringa [2].trim();
 		dataConsegna = stringa [3].trim();
+		controllaData(stringa);
 		codStatoFattura = stringa [4];
 		codProvinciaFattura = stringa [5];
 		comuneFatturazione = stringa [6];
@@ -230,8 +236,9 @@ public class Dati {
 		if (Utility.positivo(stringa[9]))
 		idCliente = stringa[9];
 		else throw new NegativeException("idCliente nella riga" + Utility.vetToString(stringa));
+		controllaSesso(stringa[10]);
 		sesso = stringa [10];
-		quantita = stringa [11];
+		setQuantita(stringa[11]);
 		if (Utility.positivo(stringa[12]))
 		idMagazzino = stringa [12];
 		else throw new NegativeException("idMagazzino nella riga" + Utility.vetToString(stringa));
@@ -248,6 +255,7 @@ public class Dati {
 		sconto = stringa [16];
 		else throw new NegativeException("sconto nella riga" + Utility.vetToString(stringa));
 		outlet = stringa [17];
+		controllaOutlet(stringa);
 		if (Utility.positivo(stringa[18]))
 		idTaglia2 = stringa [18];
 		else throw new NegativeException("idTaglia2 nella riga" + Utility.vetToString(stringa));
@@ -339,13 +347,6 @@ public class Dati {
 		
 	}
 	
-	public void setQuantitaPositiva() {
-		int quantitaPos;
-		if ((Integer.parseInt(quantita))<0) {
-			quantitaPos=Integer.parseInt(quantita)*(-1);
-			setQuantita(String.valueOf(quantitaPos));
-		}
-	}
 	public String toString() {
 		return idOrdine + ";" + idCorriere + ";" + dataOrdine + ";" +
 				dataConsegna + ";" + codStatoFattura + ";" +
