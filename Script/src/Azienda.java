@@ -34,7 +34,8 @@ public class Azienda {
 		ArrayList <String> fileDaControllare;
 		Scanner scanner;
 		boolean erroreTrovato = false;
-		
+		boolean presente = false;
+		String stringa = "";
 	
 		try {
 			fileDaControllare = controlFileName();
@@ -52,25 +53,39 @@ public class Azienda {
 			String aux =scanner.nextLine(); 
 			Dati.controllaIntestazione(aux);
 			while (scanner.hasNextLine()) {
+				
 				try {
-				String stringa;
+				
 				stringa = scanner.nextLine();
-
+				for (int j = 0; j < datiCorretti.size(); j++) {
+					if(datiCorretti.get(j).toString().equals(stringa)) {
+						presente = true;
+						break;
+					}
+				}
+				
+				if (!presente) {
 				Utility.campoVuoto(stringa);
 				Dati dati = new Dati(stringa.split(";"));
 				dati.controllaNumeroColonne(stringa);
+			
 				datiCorretti.add(dati);
 				dati = null;
+				}
 				}catch (GeneralException e) {
 					System.out.println(e.getMessage());
 					fileError(e.getMessage(),"C:/Users/rino9/OneDrive/Dati/File Errati/" + split[0]+"_" +split[1] + ".txt");
 					erroreTrovato = true;
+				}catch (java.lang.ArrayIndexOutOfBoundsException e) {
+					System.out.println("L'ultimo campo è vuoto alla riga " + stringa);
+					erroreTrovato=true;
 				}
 				
 			}
 			scanner.close();
 			if(!erroreTrovato)
 			addDefinitivo(nomeFile);
+			 else System.out.println("Controllo dei file finito. Visualizza la cartella File Errati per conoscere gli errori");
 			}
 		
 		}catch(FileNotFoundException e) {
@@ -78,7 +93,6 @@ public class Azienda {
 		}catch (GeneralException e) {
 			System.out.println(e.getMessage());
 			
-			System.exit(0);
 		}
 		
 	}
@@ -88,6 +102,7 @@ public class Azienda {
 		
 		PrintWriter output= null;
 		String nome = "C:/Users/rino9/OneDrive/Dati/Definitivo/def.csv";
+		Utility.createFile(nome);
 		for (int i = 0; i < datiCorretti.size(); i++) {
 			
 		Definitivo definitivo = new Definitivo(datiCorretti.get(i).toString());
@@ -96,7 +111,7 @@ public class Azienda {
 			definitivo.estrapolaData();
 		output = new PrintWriter (new FileOutputStream(nome, true));
 		String riga = definitivo.toString();
-		System.out.println(riga);
+		
 		if(!Utility.stringIntoFile(riga))
 			output.println(riga);
 		output.close();
@@ -111,10 +126,10 @@ public class Azienda {
 		}
 		
 		System.out.println("L'operazione di inserimento e' andata a buon fine!");
-		
+		/*
 		File file = new File(nomeFile);
 		file.delete();
-		
+		*/
 	}
 	
 	

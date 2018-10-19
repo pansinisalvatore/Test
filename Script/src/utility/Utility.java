@@ -147,7 +147,7 @@ public class Utility {
 	public static boolean stringIntoFile(String string) {
 		String nomeFile = "C:/Users/rino9/OneDrive/Dati/Definitivo/def.csv";
 		Scanner scanner;
-		createFile(nomeFile);
+		
 		try {
 		 	scanner = new Scanner (new File(nomeFile));
 		 	while (scanner.hasNextLine()) {
@@ -163,9 +163,9 @@ public class Utility {
 }
 	
 	
-	private static void createFile(String nomeFile) {
+	public static void createFile(String nomeFile) {
 		PrintWriter output;
-		String intestazione = "IdOrdine;IdCorriere;DataOrdine;GiornoOrdine;MeseOrdine;AnnoOrdine;FestivoOrdine"
+		String intestazione = "IdOrdine;IdCorriere;DataOrdine;GiornoOrdine;MeseOrdine;AnnoOrdine;FestivoOrdine;"
 				+"DataConsegna;GiornoConsegna;MeseConsegna;AnnoConsegna;"
 				+ "CodStatoFattura;CodProvinciaFattura;PosizioneGeografica;ComuneFatturazione;TotaleImponibileFattura;"
 				+ "TotaleConIva;IdCliente;Sesso;Quantita;IdMagazzino;PrezzoVendita;PrezzoPieno;"
@@ -188,5 +188,17 @@ public class Utility {
 		}
 		
 	
+	}
+	public static void deleteFileErrati() {
+		String nome = "C:/Users/rino9/OneDrive/Dati/File Errati";
+		File directory = new File(nome);
+		String[] list = directory.list();
+		
+		for (int i = 0; i < list.length; ++i) {
+			
+			String nomeFile = list[i];
+			File f= new File(nome +"/"+nomeFile);
+			f.delete();
+		}
 	}
 }

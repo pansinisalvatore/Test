@@ -278,13 +278,13 @@ public class Dati {
 		controllaData(stringa);
 		codStatoFattura = stringa [4].toUpperCase();
 		codProvinciaFattura = stringa [5];
-		if (codStatoFattura.equals("IT")|| controllaProvincia()) {
+		if (codStatoFattura.equals("IT") && controllaProvincia()) {
 			codProvinciaFattura = stringa [5].toUpperCase();
 		}else {
 			codProvinciaFattura = stringa [5].toLowerCase();
 		}
 		
-		controllaStato(stringa);
+		//controllaStato(stringa);
 		comuneFatturazione = stringa [6];
 		if (Utility.doublePositivo(stringa[7]))
 		totaleImponibileFattura = stringa [7];

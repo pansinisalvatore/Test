@@ -1,12 +1,14 @@
 import java.io.File;
 
+import utility.Utility;
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Azienda azienda = new Azienda();
+	    Utility.deleteFileErrati();
 		azienda.controllaDati();
-		//azienda.controllaDati();
+	
 	}
 	
 
