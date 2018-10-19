@@ -23,59 +23,74 @@ public class Azienda {
 
 	
 	private static int conteggio = 0;
+	private ArrayList <Dati> datiCorretti;
 	
-	
+	public Azienda() {
+		datiCorretti = new ArrayList <Dati>();
+	}
 	
 	public void controllaDati(){ 
 		
 		ArrayList <String> fileDaControllare;
 		Scanner scanner;
+		boolean erroreTrovato = false;
 		
-		Long conta = 0l;
+	
 		try {
 			fileDaControllare = controlFileName();
 			if (fileDaControllare == null) throw new FileNotFoundException("Nessun file con il giusto formato");
 			
 			for (int i = 0; i < fileDaControllare.size(); i++) {
 				String nomeFile = "C:/Users/rino9/OneDrive/Dati/" + fileDaControllare.get(i);
+				System.out.println("nome file: " + fileDaControllare.get(i));
+				String file = fileDaControllare.get(i);
+				String[] split = file.split("_");
+				String s = split[1].substring(0, 3);
 				
 			
 			scanner = new Scanner (new File(nomeFile));
 			String aux =scanner.nextLine(); 
 			Dati.controllaIntestazione(aux);
 			while (scanner.hasNextLine()) {
+				try {
 				String stringa;
 				stringa = scanner.nextLine();
 
-				
 				Utility.campoVuoto(stringa);
 				Dati dati = new Dati(stringa.split(";"));
 				dati.controllaNumeroColonne(stringa);
-				//dati.set(stringa);
-				
-				addDefinitivo(dati);
+				datiCorretti.add(dati);
 				dati = null;
+				}catch (GeneralException e) {
+					System.out.println(e.getMessage());
+					fileError(e.getMessage(),"C:/Users/rino9/OneDrive/Dati/File Errati/" + split[0]+"_" +split[1] + ".txt");
+					erroreTrovato = true;
 				}
+				
+			}
 			scanner.close();
-			
+			if(!erroreTrovato)
+			addDefinitivo(nomeFile);
 			}
 		
 		}catch(FileNotFoundException e) {
 			System.out.println(e.getMessage());
 		}catch (GeneralException e) {
 			System.out.println(e.getMessage());
-			System.out.println("dove sei?");
+			
 			System.exit(0);
 		}
 		
 	}
 	
-	public void addDefinitivo(Dati dati) {
+	public void addDefinitivo(String nomeFile) {
 		
 		
 		PrintWriter output= null;
 		String nome = "C:/Users/rino9/OneDrive/Dati/Definitivo/def.csv";
-		Definitivo definitivo = new Definitivo(dati.toString());
+		for (int i = 0; i < datiCorretti.size(); i++) {
+			
+		Definitivo definitivo = new Definitivo(datiCorretti.get(i).toString());
 		definitivo.setLocation();
 		try {
 			definitivo.estrapolaData();
@@ -92,6 +107,14 @@ public class Azienda {
 		} catch (ParseException e) {
 		   System.out.println(e.getMessage());
 		}
+		
+		}
+		
+		System.out.println("L'operazione di inserimento e' andata a buon fine!");
+		
+		File file = new File(nomeFile);
+		file.delete();
+		
 	}
 	
 	
@@ -126,6 +149,23 @@ public class Azienda {
 		
 	}
 	
+	public void fileError(String messaggioErrore, String nomeFile) {
+		
+		PrintWriter output;
+		
+		try {
+			File file = new File(nomeFile);
+			output = new PrintWriter (new FileOutputStream(nomeFile,true));
+			
+				output.println(messaggioErrore);
+				output.close();
+			
+			//file.createNewFile();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
 
 	
 }

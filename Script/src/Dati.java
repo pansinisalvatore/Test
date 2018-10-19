@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import eccezione.DataException;
@@ -44,19 +45,27 @@ public class Dati {
 	private String idGruppoTaglie;
 	private String nomeCat;
 	private String nomeMac;
+	private ArrayList <Provincia> provincia;
 	
 	/**
 	 * fa i controlli
 	 * @param split
 	 */
 	public Dati(String[] split) throws GeneralException {
-			set(split);
+		setProvincia();	
+		set(split);
+			
 	}
 	
 	public Dati(String string) {
+		setProvincia();	
 		set(string);
+		
+		
 	}
-	
+	public ArrayList <Provincia> getProvincia(){
+		return this.provincia;
+	}
 	public void set(String string) {
 		String[] stringa = string.split(";");
 			idOrdine = stringa[0];
@@ -267,8 +276,15 @@ public class Dati {
 		dataOrdine = stringa [2].trim();
 		dataConsegna = stringa [3].trim();
 		controllaData(stringa);
-		codStatoFattura = stringa [4];
+		codStatoFattura = stringa [4].toUpperCase();
 		codProvinciaFattura = stringa [5];
+		if (codStatoFattura.equals("IT")|| controllaProvincia()) {
+			codProvinciaFattura = stringa [5].toUpperCase();
+		}else {
+			codProvinciaFattura = stringa [5].toLowerCase();
+		}
+		
+		controllaStato(stringa);
 		comuneFatturazione = stringa [6];
 		if (Utility.doublePositivo(stringa[7]))
 		totaleImponibileFattura = stringa [7];
@@ -413,33 +429,129 @@ public class Dati {
 	 */
 	public boolean controllaProvincia() {
 		
-	Scanner scanner ;
-	
-	boolean trovato=false;
-		try {
-			scanner = new Scanner (new File("Elenco-comuni-italiani.csv"));
-			String aux =scanner.nextLine(); 
-			while (scanner.hasNextLine()) {
-				String prov;
-				String[] stringa;
+		boolean trovato = false;
+		for (int i = 0; i < provincia.size(); i++) {
+			if (getCodProvinciaFattura().equals(provincia.get(i).getSigla())) {
+				trovato = true;
+				break;
+			}
 				
-				prov = scanner.nextLine();
-				System.out.println(prov);
-				stringa = prov.split(";");
-				String prov2= stringa[3];
-				if (codProvinciaFattura.equals(prov2)) {
-					//scanner.close();
-					trovato= true;
-					
-				}
-	       
-	       }scanner.close();
-			
-		}catch(FileNotFoundException e) {
-			System.out.println(e.getMessage());
-		}
+		} 
 		return trovato;
 		
+	}
+	
+	public void setProvincia() {
+		provincia = new ArrayList<Provincia>();
+		provincia.add(new Provincia("AG", "Isole"));
+		provincia.add(new Provincia("AL", "Nord"));
+		provincia.add(new Provincia("AN", "Centro"));
+		provincia.add(new Provincia("AO", "Nord"));
+		provincia.add(new Provincia("AR", "Centro"));
+		provincia.add(new Provincia("AP", "Centro"));
+		provincia.add(new Provincia("AT", "Nord"));
+		provincia.add(new Provincia("AV", "Sud"));
+		provincia.add(new Provincia("BA", "Sud"));
+		provincia.add(new Provincia("BT", "Sud"));
+		provincia.add(new Provincia("BL", "Nord"));
+		provincia.add(new Provincia("BN", "Sud"));
+		provincia.add(new Provincia("BG", "Nord"));
+		provincia.add(new Provincia("BI", "Nord"));
+		provincia.add(new Provincia("BO", "Nord"));
+		provincia.add(new Provincia("BZ", "Nord"));
+		provincia.add(new Provincia("BS", "Nord"));
+		provincia.add(new Provincia("BR", "Sud"));
+		provincia.add(new Provincia("CA", "Isole"));
+		provincia.add(new Provincia("CL", "Isole"));
+		provincia.add(new Provincia("CB", "Sud"));
+		provincia.add(new Provincia("CE", "Sud"));
+		provincia.add(new Provincia("CI", "Isole"));
+		provincia.add(new Provincia("CT", "Isole"));
+		provincia.add(new Provincia("CR", "Nord"));
+		provincia.add(new Provincia("CO", "Nord"));
+		provincia.add(new Provincia("CH", "Sud"));
+		provincia.add(new Provincia("CS", "Sud"));
+		provincia.add(new Provincia("CN", "Nord"));
+		provincia.add(new Provincia("CZ", "Sud"));
+		provincia.add(new Provincia("EN", "Isole"));
+		provincia.add(new Provincia("FE", "Nord"));
+		provincia.add(new Provincia("FC", "Nord"));
+		provincia.add(new Provincia("FG", "Sud"));
+		provincia.add(new Provincia("FI", "Centro"));
+		provincia.add(new Provincia("FM", "Centro"));
+		provincia.add(new Provincia("FR", "Centro"));
+		provincia.add(new Provincia("GE", "Nord"));
+		provincia.add(new Provincia("GO", "Nord"));
+		provincia.add(new Provincia("GR", "Centro"));
+		provincia.add(new Provincia("IM", "Nord"));
+		provincia.add(new Provincia("IS", "Sud"));
+		provincia.add(new Provincia("KR", "Sud"));
+		provincia.add(new Provincia("LC", "Nord"));
+		provincia.add(new Provincia("LE", "Sud"));
+		provincia.add(new Provincia("LO", "Nord"));
+		provincia.add(new Provincia("LU", "Centro"));
+		provincia.add(new Provincia("LI", "Centro"));
+		provincia.add(new Provincia("LT", "Centro"));
+		provincia.add(new Provincia("MN", "Nord"));
+		provincia.add(new Provincia("MS", "Centro"));
+		provincia.add(new Provincia("MT", "Sud"));
+		provincia.add(new Provincia("MI", "Nord"));
+		provincia.add(new Provincia("MO", "Nord"));
+		provincia.add(new Provincia("MC", "Centro"));
+		provincia.add(new Provincia("MB", "Nord"));
+		provincia.add(new Provincia("ME", "Isole"));
+		provincia.add(new Provincia("NA", "Sud"));
+		provincia.add(new Provincia("NO", "Nord"));
+		provincia.add(new Provincia("NU", "Isole"));
+		provincia.add(new Provincia("OR", "Isole"));
+		provincia.add(new Provincia("OG", "Isole"));
+		provincia.add(new Provincia("OT", "Isole"));
+		provincia.add(new Provincia("PD", "Nord"));
+		provincia.add(new Provincia("PV", "Nord"));
+		provincia.add(new Provincia("PN", "Nord"));
+		provincia.add(new Provincia("PC", "Nord"));
+		provincia.add(new Provincia("PR", "Nord"));
+		provincia.add(new Provincia("PT", "Centro"));
+		provincia.add(new Provincia("PI", "Centro"));
+		provincia.add(new Provincia("PO", "Centro"));
+		provincia.add(new Provincia("PG", "Centro"));
+		provincia.add(new Provincia("PU", "Centro"));
+		provincia.add(new Provincia("PE", "Sud"));
+		provincia.add(new Provincia("PZ", "Sud"));
+		provincia.add(new Provincia("RO", "Nord"));
+		provincia.add(new Provincia("RA", "Nord"));
+		provincia.add(new Provincia("RE", "Nord"));
+		provincia.add(new Provincia("RN", "Nord"));
+		provincia.add(new Provincia("RI", "Centro"));
+		provincia.add(new Provincia("RM", "Centro"));
+		provincia.add(new Provincia("RC", "Sud"));
+		provincia.add(new Provincia("RG", "Isole"));
+		provincia.add(new Provincia("SO", "Nord"));
+		provincia.add(new Provincia("SV", "Nord"));
+		provincia.add(new Provincia("SP", "Nord"));
+		provincia.add(new Provincia("SI", "Centro"));
+		provincia.add(new Provincia("SA", "Sud"));
+		provincia.add(new Provincia("SR", "Isole"));
+		provincia.add(new Provincia("SS", "Isole"));
+		provincia.add(new Provincia("SU", "Isole"));
+		provincia.add(new Provincia("TO", "Nord"));
+		provincia.add(new Provincia("TN", "Nord"));
+		provincia.add(new Provincia("TV", "Nord"));
+		provincia.add(new Provincia("TS", "Nord"));
+		provincia.add(new Provincia("TR", "Centro"));
+		provincia.add(new Provincia("TE", "Sud"));
+		provincia.add(new Provincia("TA", "Sud"));
+		provincia.add(new Provincia("TP", "Isole"));
+		provincia.add(new Provincia("UD", "Nord"));
+		provincia.add(new Provincia("VC", "Nord"));
+		provincia.add(new Provincia("VB", "Nord"));
+		provincia.add(new Provincia("VO", "Nord"));
+		provincia.add(new Provincia("VR", "Nord"));
+		provincia.add(new Provincia("VI", "Nord"));
+		provincia.add(new Provincia("VE", "Nord"));
+		provincia.add(new Provincia("VT", "Centro"));
+		provincia.add(new Provincia("VV", "Sud"));
+
 	}
 	
 }

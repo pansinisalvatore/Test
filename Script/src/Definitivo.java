@@ -9,6 +9,7 @@ import java.util.GregorianCalendar;
 import java.util.Iterator;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 
 
@@ -32,41 +33,22 @@ public class Definitivo extends Dati {
 
 	public Definitivo(String set) {
 		super(set);
+
+		
 	}
 	public void setLocation() {
-		 String nomeFile = "elenco.csv";
-		 Scanner scanner;
-		 String posizione="";
-		 
-		 boolean inserito = false;
-		 try {
-			 	scanner = new Scanner (new File(nomeFile));
-			 	//scanner.nextLine();
-			 	for (;;) {
-			 		String provincia;
-			 		String stringa = scanner.nextLine();
-			 		String[] split = stringa.split(";");
-			 		System.out.println("split "+ split.length +" "+ split[0]+ " "+split[1]+ " "+split[2]);
-			 		
-			 		provincia = split[2].toUpperCase();
-			 		System.out.println( "provincia" + provincia);
-			 		System.out.println(getCodProvinciaFattura().toUpperCase() );
-			 		String codiceProvincia = getCodProvinciaFattura().toUpperCase();
-			 	
-			 		if (provincia.equals(codiceProvincia)) {
-			 			setLocation(posizione.toString());
-			 		    System.out.println("sono entrato");
-			 			inserito = true;
-			 			break;
-			 		}
-			 		
-			 		if (!scanner.hasNextLine()) break;
-			 	}
-			 	if (!inserito) location = "Estero";
-			 
-		 }catch (FileNotFoundException e) {
-			 System.out.println(e.getMessage());
-		 }
+		ArrayList <Provincia> provincia = getProvincia();
+		boolean trovato = false;
+		for (int i = 0; i < provincia.size(); i++) {
+			if (getCodProvinciaFattura().equals(provincia.get(i).getSigla())) {
+				location = provincia.get(i).getPosizione();
+				trovato = true;
+				break;
+			}
+				
+		}
+		
+		if(!trovato) location = "Estero";
 	}
 	
 	private void setLocation(String posizione) {
