@@ -52,10 +52,14 @@ public class Azienda {
 			scanner = new Scanner (new File(nomeFile));
 			String aux =scanner.nextLine(); 
 			Dati.controllaIntestazione(aux);
+			System.out.print("Caricamento in corso...");
+			int conta = 0;
 			while (scanner.hasNextLine()) {
 				
-				try {
-				
+				try { 
+				System.out.print("*");
+				if ((conta % 40) == 0)
+					System.out.println("");
 				stringa = scanner.nextLine();
 				for (int j = 0; j < datiCorretti.size(); j++) {
 					if(datiCorretti.get(j).toString().equals(stringa)) {
@@ -70,6 +74,7 @@ public class Azienda {
 				dati.controllaNumeroColonne(stringa);
 			
 				datiCorretti.add(dati);
+				conta++;
 				dati = null;
 				}
 				}catch (GeneralException e) {
@@ -78,6 +83,7 @@ public class Azienda {
 					erroreTrovato = true;
 				}catch (java.lang.ArrayIndexOutOfBoundsException e) {
 					System.out.println("L'ultimo campo è vuoto alla riga " + stringa);
+					fileError("Array Index out of bound: " + stringa,"C:/Users/rino9/OneDrive/Dati/File Errati/" + split[0]+"_" +split[1] + ".txt");
 					erroreTrovato=true;
 				}
 				
@@ -101,7 +107,7 @@ public class Azienda {
 		
 		
 		PrintWriter output= null;
-		String nome = "C:/Users/rino9/OneDrive/Dati/Definitivo/def.csv";
+		String nome = "C:/Users/rino9/OneDrive/Dati/Definitivo/CorrectData.csv";
 		Utility.createFile(nome);
 		for (int i = 0; i < datiCorretti.size(); i++) {
 			
@@ -126,10 +132,10 @@ public class Azienda {
 		}
 		
 		System.out.println("L'operazione di inserimento e' andata a buon fine!");
-		/*
+		
 		File file = new File(nomeFile);
 		file.delete();
-		*/
+		
 	}
 	
 	

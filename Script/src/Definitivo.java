@@ -103,41 +103,41 @@ public class Definitivo extends Dati {
 			String date2 = getDataOrdine().substring(0,4);
 			switch (date2) {
 			case ("01/01"):{
-				festivo="YES";
+				festivo="SI";
 				break;
 			}
 			case ("06/01"):
-				festivo="YES";
+				festivo="SI";
 				break;
 			case ("25/04"):
-				festivo="YES";
+				festivo="SI";
 				break;
 			case ("01/05"):
-				festivo="YES";
+				festivo="SI";
 				break;
 			case ("02/06"):
-				festivo="YES";
+				festivo="SI";
 				break;
 			case ("15/08"):
-				festivo="YES";
+				festivo="SI";
 				break;
 			case ("01/11"):
-			    festivo="YES";
+				festivo="SI";
 				break;
 			case ("08/12"):
-				festivo="YES";
+				festivo="SI";
 				break;
 			case ("25/12"):
-				festivo="YES";
+				festivo="SI";
 				break;
 			case ("26/12"):
-				festivo="YES";
+				festivo="SI";
 				break;
 				
 			}
 	  
 		   if (numeroGiornoSettOrdine==1 || numeroGiornoSettOrdine==7) {
-			   festivo="YES";
+			   festivo="SI";
 			   
 		   }
 		   
@@ -154,7 +154,7 @@ public class Definitivo extends Dati {
 	 					calendar.get(Calendar.MONTH) * 100 +  
 	 					calendar.get(Calendar.DAY_OF_MONTH);
 	 		if (easterYMD == dateYMD ) {
-	 			festivo= "YES";
+	 			festivo= "SI";
 	 		}        
 			
 			return festivo;

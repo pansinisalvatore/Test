@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import eccezione.CharacterException;
 import eccezione.DataException;
 import eccezione.GeneralException;
 import eccezione.NegativeException;
@@ -166,13 +167,18 @@ public class Dati {
 	public String getQuantita() {
 		return quantita;
 	}
-	public void setQuantita(String string) {
+	public void setQuantita(String string,String intera) throws CharacterException {
 		
 		int quantitaPos;
-		if ((Integer.parseInt(string))<0) {
-			quantitaPos=Integer.parseInt(string)*(-1);
-			quantita = (String.valueOf(quantitaPos));
+		try {
+			if ((Integer.parseInt(string))<0) {
+				quantitaPos=Integer.parseInt(string)*(-1);
+				quantita = (String.valueOf(quantitaPos));
+			} else quantita = string;
+		}catch (NumberFormatException e) {
+			throw new CharacterException(intera);
 		}
+		
 	}
 	public String getIdMagazzino() {
 		return idMagazzino;
@@ -297,7 +303,7 @@ public class Dati {
 		else throw new NegativeException("idCliente nella riga" + Utility.vetToString(stringa));	
 		sesso = stringa [10];
 		controllaSesso(Utility.vetToString(stringa));
-		setQuantita(stringa[11]);
+		setQuantita(stringa[11],Utility.vetToString(stringa));
 		if (Utility.positivo(stringa[12]))
 		idMagazzino = stringa [12];
 		else throw new NegativeException("idMagazzino nella riga" + Utility.vetToString(stringa));

@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+import eccezione.CharacterException;
 import eccezione.EmptyException;
 
 public class Utility {
@@ -108,7 +109,7 @@ public class Utility {
 	public static void campoVuoto(String string) throws EmptyException {
 		String[] split = string.split(";");
 		for (int i = 0; i < split.length; i++) {
-			if (split[i].equals("")) 
+			if (split[i].equals("") || split[i].equals(" ")) 
 				throw new EmptyException(string);
 		}
 	}
@@ -145,7 +146,7 @@ public class Utility {
 	}
 	
 	public static boolean stringIntoFile(String string) {
-		String nomeFile = "C:/Users/rino9/OneDrive/Dati/Definitivo/def.csv";
+		String nomeFile = "C:/Users/rino9/OneDrive/Dati/Definitivo/CorrectData.csv";
 		Scanner scanner;
 		
 		try {
@@ -201,4 +202,18 @@ public class Utility {
 			f.delete();
 		}
 	}
+	
+	public static void isNumeric(String num, String intera) throws CharacterException{
+		  try{
+		    Integer.parseInt(num);
+		  }catch(Exception e){
+		    try{
+		      Double.parseDouble(num);
+		    }catch(Exception z){
+		      throw new CharacterException(intera);
+		    }
+		  }
+		}
+
+
 }
