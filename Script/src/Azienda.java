@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
+import java.nio.file.Files;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -133,6 +134,8 @@ public class Azienda {
 		
 		System.out.println("L'operazione di inserimento e' andata a buon fine!");
 		
+		backup(nome);
+		
 		File file = new File(nomeFile);
 		file.delete();
 		
@@ -184,6 +187,29 @@ public class Azienda {
 			//file.createNewFile();
 		} catch (IOException e) {
 			e.printStackTrace();
+		}
+		
+	}
+	
+	public void backup(String nomeSource) {
+		
+		String nomeCopy = "C:/Users/rino9/OneDrive/backup definitivo/backupCorrectData.csv";
+		File copy = new File (nomeCopy);
+		File source = new File (nomeSource);
+		copy.delete();
+		PrintWriter scrittura = null;
+		Scanner scanner = null;
+		try {
+			scrittura = new PrintWriter(new FileOutputStream(copy));
+			scanner = new Scanner (source);
+			while (scanner.hasNextLine()) {
+				String riga = scanner.nextLine();
+				scrittura.println(riga);
+			}
+			scrittura.close();
+			scanner.close();
+		}catch (FileNotFoundException e) {
+			System.out.println("Impossibile effettuare il backup");
 		}
 		
 	}
