@@ -58,9 +58,7 @@ public class Azienda {
 			while (scanner.hasNextLine()) {
 				
 				try { 
-				System.out.print("*");
-				if ((conta % 40) == 0)
-					System.out.println("");
+				
 				stringa = scanner.nextLine();
 				for (int j = 0; j < datiCorretti.size(); j++) {
 					if(datiCorretti.get(j).toString().equals(stringa)) {
@@ -79,20 +77,22 @@ public class Azienda {
 				dati = null;
 				}
 				}catch (GeneralException e) {
-					System.out.println(e.getMessage());
+					//System.out.println(e.getMessage());
 					fileError(e.getMessage(),"C:/Users/rino9/OneDrive/Dati/File Errati/" + split[0]+"_" +split[1] + ".txt");
 					erroreTrovato = true;
 				}catch (java.lang.ArrayIndexOutOfBoundsException e) {
-					System.out.println("L'ultimo campo è vuoto alla riga " + stringa);
+					//System.out.println("L'ultimo campo è vuoto alla riga " + stringa);
 					fileError("Array Index out of bound: " + stringa,"C:/Users/rino9/OneDrive/Dati/File Errati/" + split[0]+"_" +split[1] + ".txt");
 					erroreTrovato=true;
 				}
 				
 			}
 			scanner.close();
-			if(!erroreTrovato)
 			addDefinitivo(nomeFile);
-			 else System.out.println("Controllo dei file finito. Visualizza la cartella File Errati per conoscere gli errori");
+			if(!erroreTrovato) {
+				System.out.println("L'operazione di inserimento e' andata a buon fine!");
+			}
+			else System.out.println("Controllo dei file finito. Visualizza la cartella File Errati per conoscere gli errori");
 			}
 		
 		}catch(FileNotFoundException e) {
@@ -132,7 +132,6 @@ public class Azienda {
 		
 		}
 		
-		System.out.println("L'operazione di inserimento e' andata a buon fine!");
 		
 		backup(nome);
 		

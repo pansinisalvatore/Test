@@ -166,8 +166,8 @@ public class Utility {
 	
 	public static void createFile(String nomeFile) {
 		PrintWriter output;
-		String intestazione = "IdOrdine;IdCorriere;DataOrdine;GiornoOrdine;MeseOrdine;AnnoOrdine;FestivoOrdine;"
-				+"DataConsegna;GiornoConsegna;MeseConsegna;AnnoConsegna;"
+		String intestazione = "IdOrdine;IdCorriere;DataOrdine;GiornoOrdine;MeseOrdine;NumeroMeseOrdine;AnnoOrdine;FestivoOrdine;"
+				+"DataConsegna;GiornoConsegna;MeseConsegna;NumeroMeseConsegna;AnnoConsegna;"
 				+ "CodStatoFattura;CodProvinciaFattura;PosizioneGeografica;ComuneFatturazione;TotaleImponibileFattura;"
 				+ "TotaleConIva;IdCliente;Sesso;Quantita;IdMagazzino;PrezzoVendita;PrezzoPieno;"
 				+ "PrezzoScontato;Sconto;Outlet;IdTaglia2;NomeDes;LinguaCollezione;LinguaColore;"

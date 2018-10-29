@@ -24,6 +24,8 @@ public class Definitivo extends Dati {
 	private String location;
 	private String nomeGiornoOrdine;
 	private int numeroGiornoSettOrdine;
+	private String numeroMeseOrdine;
+	private String numeroMeseConsegna;
 	private String nomeGiornoConsegna;
 	private String nomeMeseOrdine;
 	private String nomeMeseConsegna;
@@ -63,8 +65,8 @@ public class Definitivo extends Dati {
 
 	public String toString() {
 		return getIdOrdine() + ";" + getIdCorriere() + ";" + getDataOrdine() + ";" + getNomeGiornoOrdine()+";" +
-				getNomeMeseOrdine() + ";" + getAnnoOrdine() +";" + getIsFestivoOrdine() + ";" +getDataConsegna() + ";" +
-				getNomeGiornoConsegna()+";" + getNomeMeseConsegna() + ";" + getAnnoConsegna() +";" 
+				getNomeMeseOrdine() + ";"+getNumeroMeseOrdine()+";" + getAnnoOrdine() +";" + getIsFestivoOrdine() + ";" +getDataConsegna() + ";" +
+				getNomeGiornoConsegna()+";" + getNomeMeseConsegna() + ";" +getNumeroMeseConsegna()+";"+ getAnnoConsegna() +";" 
 				+ getCodStatoFattura() + ";" +
 				getCodProvinciaFattura() + ";" + getLocation() + ";" + getComuneFatturazione() + ";" +
 				getTotaleImponibileFattura() + ";" + getTotaleConIva() +";" +
@@ -88,13 +90,16 @@ public class Definitivo extends Dati {
 	     Calendar c= Calendar.getInstance();
 	     c.setTime(new SimpleDateFormat("dd/MM/yyyy").parse(getDataOrdine()));
 	     numeroGiornoSettOrdine= c.get(Calendar.DAY_OF_WEEK);
+	     int aux1 = c.get(Calendar.MONTH) + 1;
+	     setNumeroMeseOrdine(((Integer)aux1).toString());
 	     setNomeMeseOrdine(new SimpleDateFormat("MMMM").format(c.getTime()));
 	     setAnnoOrdine(((Integer)c.get(Calendar.YEAR)).toString());
 	     setIsFestivoOrdine(isFestivo());
 	     c.setTime(new SimpleDateFormat("dd/MM/yyyy").parse(getDataConsegna()));
 	     setNomeMeseConsegna(new SimpleDateFormat("MMMM").format(c.getTime()));
 	     setAnnoConsegna(((Integer)c.get(Calendar.YEAR)).toString());
-	     
+	     int aux2 = c.get(Calendar.MONTH) + 1;
+	     setNumeroMeseConsegna(((Integer)aux2).toString());
 	}
 	
 	
@@ -269,6 +274,18 @@ public class Definitivo extends Dati {
 
 		public void setIsFestivoOrdine(String isFestivoOrdine) {
 			this.isFestivoOrdine = isFestivoOrdine;
+		}
+		public String getNumeroMeseOrdine() {
+			return numeroMeseOrdine;
+		}
+		public void setNumeroMeseOrdine(String numeroMeseOrdine) {
+			this.numeroMeseOrdine = numeroMeseOrdine;
+		}
+		public String getNumeroMeseConsegna() {
+			return numeroMeseConsegna;
+		}
+		public void setNumeroMeseConsegna(String numeroMeseConsegna) {
+			this.numeroMeseConsegna = numeroMeseConsegna;
 		}
  	 	
 
